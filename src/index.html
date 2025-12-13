@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/icons/icon-192.png" />
+  <title>Playstori | Offline Kids Game Launcher</title>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <div class="brand-text">
+          <span class="brand-name">Playstori</span>
+          <span class="brand-tagline">Where Stories Come to Play.</span>
+        </div>
+      </div>
+      <div class="top-actions">
+        <a id="sponsor-link" class="ghost-button" href="#" target="_blank" rel="noreferrer">Support</a>
+        <div class="star-chip" id="star-chip">
+          <span class="star-icon">★</span>
+          <span id="star-count">0</span>
+        </div>
+        <button id="settings-btn" class="ghost-button" aria-label="Open settings">⚙</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section>
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">Pick a journey</p>
+            <h1>Offline Kids Game Launcher</h1>
+            <p class="lede">Six gentle categories. Add new games by dropping folders into <code>public/games/</code> and editing <code>public/games.json</code>.</p>
+          </div>
+        </header>
+
+        <div id="categories-view">
+          <div id="categories" class="category-grid"></div>
+        </div>
+
+        <div id="games-view" class="card hidden">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow" id="category-crumb"></p>
+              <h2 id="category-title"></h2>
+              <p id="category-tagline" class="muted"></p>
+            </div>
+            <button id="back-to-categories" class="ghost-button">Back to categories</button>
+          </div>
+          <div id="games-grid" class="games-grid"></div>
+        </div>
+
+        <div id="player-view" class="card hidden">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow" id="player-crumb"></p>
+              <h2 id="player-title"></h2>
+              <p id="player-tagline" class="muted">Tap exit to return.</p>
+            </div>
+            <div class="player-actions">
+              <button id="player-back" class="ghost-button">Back to games</button>
+              <button id="player-exit" class="solid-button">Exit</button>
+            </div>
+          </div>
+          <div class="player-frame">
+            <iframe id="game-frame" title="Game player" allow="fullscreen; gamepad; accelerometer; gyroscope"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="settings-modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content settings-card">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">Parent Gate</p>
+          <h2>Settings</h2>
+          <p class="muted">Toggle games, change PIN, or download everything for offline play.</p>
+        </div>
+        <button id="close-settings" class="ghost-button">Back</button>
+      </div>
+      <div class="settings-body">
+        <div class="settings-block">
+          <p class="eyebrow">Game toggles</p>
+          <div id="settings-games" class="toggle-list"></div>
+        </div>
+        <div class="settings-block">
+          <p class="eyebrow">PIN</p>
+          <label class="field">
+            <span>Current PIN (default 0000)</span>
+            <input id="pin-input" type="password" inputmode="numeric" maxlength="8" placeholder="0000" />
+          </label>
+        </div>
+        <div class="settings-block">
+          <p class="eyebrow">Offline</p>
+          <button id="download-all" class="solid-button">Download all games for offline</button>
+          <button id="cancel-download" class="ghost-button danger hidden">Cancel download</button>
+          <p id="download-status" class="muted"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="gate-modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content gate-card">
+      <h3>Grown-up check</h3>
+      <p class="muted">Enter the PIN or solve the quick math puzzle.</p>
+      <label class="field">
+        <span>PIN</span>
+        <input id="gate-pin" type="password" inputmode="numeric" maxlength="8" placeholder="0000" />
+      </label>
+      <div class="gate-row">
+        <span id="gate-math"></span>
+        <input id="gate-answer" type="number" inputmode="numeric" placeholder="?" />
+      </div>
+      <div class="gate-actions">
+        <button id="gate-cancel" class="ghost-button">Cancel</button>
+        <button id="gate-submit" class="solid-button">Enter</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

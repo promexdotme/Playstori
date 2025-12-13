@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Star Hopper</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --accent: #fbbf24;
+      --card: #141a2f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at 50% 30%, rgba(251,191,36,0.18), transparent 55%), var(--bg);
+      color: #fef9c3;
+      font-family: 'Nunito', 'Quicksand', system-ui, -apple-system, sans-serif;
+      padding: 24px;
+    }
+    .card {
+      max-width: 480px;
+      width: 100%;
+      background: var(--card);
+      border: 2px solid rgba(251,191,36,0.35);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+    }
+    h1 { margin: 0 0 8px; font-weight: 800; }
+    p { margin: 0 0 16px; line-height: 1.5; }
+    button {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: none;
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      color: #1f1500;
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(251,191,36,0.35);
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+    button:active { transform: translateY(1px); box-shadow: 0 6px 18px rgba(251,191,36,0.3); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Star Hopper</h1>
+    <p>Hop between calm stars and avoid the meteors. Tap after finishing a stage.</p>
+    <button id="finish">Stage cleared</button>
+  </div>
+  <script>
+    const finish = document.getElementById('finish');
+    finish.addEventListener('click', () => {
+      window.parent?.postMessage({ type: 'ADD_STAR', gameId: 'star-hopper' }, '*');
+      finish.textContent = 'Star sent! Keep hopping?';
+    });
+  </script>
+</body>
+</html>

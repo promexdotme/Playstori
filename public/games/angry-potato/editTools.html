@@ -1,0 +1,125 @@
+<div id="editWrapper">
+    <div id="floatForm">
+    	<input id='toggleShowOption' name="toggleOption" type="button" value="Hide Edit Option" />
+        
+        <div id="editOption">
+        	<br>
+            <div id='selectMapWrapper'>
+                Select Map:<br>
+                <select id="maplist" name="maplist">
+                </select><br>
+                <input id="prevMap" name="prevMap" class="button" type="button" value="Prev Map">
+                <input id="nextMap" name="nextMap" class="button" type="button" value="Next Map">
+                <br><br>
+            </div>
+            
+            <div id='mapDataWrapper'>
+                <input id='addMap' name="addMap" type="button" value="Add Map" />
+                <input id='removeMap' name="removeMap" type="button" value="Remove Map" />
+                <input id='moveMapUp' name="moveMapUp" type="button" value="Move Map Up" />
+                <input id='moveMapDown' name="moveMapDown" type="button" value="Move Map Down" />
+                
+                <br><br>
+                Edit map:
+                <input id='editBuildMap' name="editBuildMap" type="button" value="Build Map" />
+                <input id='editTestPlay' name="editTestPlay" type="button" value="Test Play" />
+                <br><br>
+                Generate and replace array:<br>
+                <input id='generateArray' name="generateArray" type="button" value="Generate Array" />
+                <textarea id="outputArray" name="outputArray" cols="" rows="10"></textarea>
+            </div>
+            
+            <div id="editMapWrapper">
+            	Edit map:
+                <div class="formRow" >
+                    <label class="button">Column:</label>
+                    <input id="mapColumn" name="mapColumn" type="text" value="19" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Row:</label>
+                    <input id="mapRow" name="mapRow" type="text" value="22" />
+                </div>
+                <input id="createMap" name="createMap" type="button" value="Create Map Size"><br><br>
+
+                <input id='mapDesign' name="mapDesign" type="button" value="Map Design" />
+                <input id='userGhostPosition' name="userGhostPosition" type="button" value="User & Ghost Position" />
+                <br><br>
+
+                Map Settings:<br>
+                <div class="formRow" >
+                    <label class="button">Loop:</label>
+                    <select id="maploop" name="maploop">
+                        <option value="">Static</option>
+                        <option value="horizontal">Pan Horizontal</option>
+                        <option value="vertical">Pan Vertical</option>
+                    </select>
+                </div>
+                <div class="formRow" >
+                    <label class="button">Start Direction:</label>
+                    <select id="startDirection" name="maploop">
+                        <option value="left">Left</option>
+                        <option value="right">Right</option>
+                        <option value="up">Up</option>
+                        <option value="down">Down</option>
+                    </select>
+                </div>
+                <div class="formRow" >
+                    <label class="button">Total Ghosts:</label>
+                    <input id="totalGhosts" name="totalGhosts" type="text" value="" />
+                </div>
+                (Total and relase timer, seperate by comma)<br>
+                *For loop mode the timer will be ignore.
+                <br><br>
+
+                <input id="updateMap" name="updateMap" class="" type="button" value="Update" />
+                <input name="backMain" class="backMain" type="button" value="Done" />
+            </div>
+
+            <div id="editDesignWrapper">
+                Wall Design:
+            	<p>Click on the block to switch between wall design, biscuit, pill and empty space.<br>
+                    (Hold Z and click to swtich backward)<br>
+                    (Press A to toggle replace wall)<br>
+                    (Press Q to toggle wall select)<br>
+                </p>
+                <input id='blockValue' name="blockValue" type="text" value="" readonly disabled /><br><br>
+                <select id="wallist" name="wallist">
+                </select><br>
+                <label for="replaceBlock">Replace wall : </label>
+                <input type="checkbox" id="replaceBlock" name="replaceBlock" class="checkbox replaceBlock" value="0">
+                <br><br>
+                <input name="backMap" class="backMap" type="button" value="Done" />
+            </div>
+
+            <div id="editPositionWrapper">
+                User & Ghost Position:
+            	<p>Place user and ghost position:</p>
+                <input id="placeStartPoint" name="placeStartPoint" type="button" value="Place Start Point">
+                <input id="placeGhostStartPoint" name="placeGhostStartPoint" type="button" value="Place Ghost Start Point"><br>
+                *For loop mode the ghost start position will be ignore.<br><br>
+
+                <p>Select Ghost Stay:</p>
+                <select id="ghoststaylist" name="ghoststaylist">
+                </select><br>
+                <input id="prevGhost" name="prevGhost" class="button" type="button" value="Prev Ghost">
+                <input id="nextGhost" name="nextGhost" class="button" type="button" value="Next Ghost">
+                <br><br>
+                <input id="addGhost" name="addGhost" type="button" value="Add Ghost">
+                <input id="removeGhost" name="removeGhost" type="button" value="Remove Ghost">
+                <input id="placeGhostStayPoint" name="placeGhostStayPoint" type="button" value="Place Ghost Stay Point">
+                <br><br>
+                <input name="backMap" class="backMap" type="button" value="Done" />
+            </div>
+
+            <div id="editPlacePointWrapper">
+                <p>Click on map to place the point position</p>
+                <input name="backPosition" class="backPosition" type="button" value="Done" />
+            </div>
+
+            <div id="editTestRunWrapper">
+                <p>Test play:</p>
+                <input name="backMap" class="backMap" type="button" value="Done" />
+            </div>
+         </div>
+    </div>
+</div>

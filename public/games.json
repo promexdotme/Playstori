@@ -1,0 +1,91 @@
+{
+  "settings": {
+    "sponsorUrl": "https://github.com/playstori"
+  },
+  "categories": [
+    {
+      "id": "1",
+      "name": "Story Puzzles",
+      "tagline": "Solve tiny quests that keep the lantern lit.",
+      "games": [
+        {
+          "id": "angry-potato",
+          "name": "Angry Potato",
+          "path": "games/angry-potato/index.html",
+          "thumb": "games/angry-potato/thumb.svg",
+          "description": "Classic Construct 2 slingshot puzzler."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Math Quest",
+      "tagline": "Count, balance, and glide through gentle math worlds.",
+      "games": [
+        {
+          "id": "number-glider",
+          "name": "Number Glider",
+          "path": "games/math-glider/index.html",
+          "thumb": "games/math-glider/thumb.svg",
+          "description": "Balance sums to glide safely."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Logic Lab",
+      "tagline": "Switches, circuits, and thinking puzzles.",
+      "games": [
+        {
+          "id": "circuit-cubbies",
+          "name": "Circuit Cubbies",
+          "path": "games/logic-circuit/index.html",
+          "thumb": "games/logic-circuit/thumb.svg",
+          "description": "Switch on every cubby with calm logic."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Creative Studio",
+      "tagline": "Draw, compose, and craft tiny stories.",
+      "games": [
+        {
+          "id": "color-loom",
+          "name": "Color Loom",
+          "path": "games/creative-loom/index.html",
+          "thumb": "games/creative-loom/thumb.svg",
+          "description": "Weave colors into soft patterns."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Nature Explorer",
+      "tagline": "Follow streams, skies, and tiny creatures.",
+      "games": [
+        {
+          "id": "river-tracks",
+          "name": "River Tracks",
+          "path": "games/nature-river/index.html",
+          "thumb": "games/nature-river/thumb.svg",
+          "description": "Map a quiet river route."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Calm Arcade",
+      "tagline": "Soft reflex games without the noise.",
+      "games": [
+        {
+          "id": "star-hopper",
+          "name": "Star Hopper",
+          "path": "games/calm-star/index.html",
+          "thumb": "games/calm-star/thumb.svg",
+          "description": "Hop between stars without the noise."
+        }
+      ]
+    }
+  ]
+}

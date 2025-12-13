@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lantern Steps</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #0f162f;
+      --accent: #fcd34d;
+      --card: #1f2748;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at 30% 30%, rgba(252,211,77,0.12), transparent 40%), var(--bg);
+      color: #f7f5ff;
+      font-family: 'Nunito', 'Quicksand', system-ui, -apple-system, sans-serif;
+      padding: 24px;
+    }
+    .card {
+      max-width: 480px;
+      width: 100%;
+      background: var(--card);
+      border: 2px solid rgba(252,211,77,0.25);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+    }
+    h1 { margin: 0 0 8px; font-weight: 800; }
+    p { margin: 0 0 16px; line-height: 1.5; }
+    button {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: none;
+      background: linear-gradient(135deg, #fcd34d, #f59e0b);
+      color: #1a1b4b;
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(252,211,77,0.35);
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+    button:active { transform: translateY(1px); box-shadow: 0 6px 18px rgba(252,211,77,0.3); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Lantern Steps</h1>
+    <p>Collect fireflies to relight the lantern. Tap the button when your player finishes the level.</p>
+    <button id="finish">I finished this level</button>
+  </div>
+  <script>
+    const finish = document.getElementById('finish');
+    finish.addEventListener('click', () => {
+      // Notify the launcher to award a star.
+      window.parent?.postMessage({ type: 'ADD_STAR', gameId: 'lantern-steps' }, '*');
+      finish.textContent = 'Star sent! Play again?';
+    });
+  </script>
+</body>
+</html>
