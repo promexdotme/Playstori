@@ -1,0 +1,13 @@
+
+grass-animation.png
+size: 285,309
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leaf
+  rotate: false
+  xy: 1, 1
+  size: 283, 307
+  orig: 289, 307
+  offset: 0, 0
+  index: -1

@@ -51,3 +51,8 @@ Total: 44
 
 Removed from public/games and public/games.json.
 Removed count: 44
+
+For demo porposes only.
+Copiright Buy-Instant-Html5Games.com
+Contacts Us: licensing@buy-instant-html5games.com
+Live Preview On Codecanyon.net

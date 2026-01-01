@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Create Your Beach</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+
+  </head>
+  <body class="dark">
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+    </div>
+    <div id="loading-cover" style="display:none;">
+      <div id="unity-loading-bar">
+        
+	
+        <div id="unity-logo">	
+          <img src="logo.png">	
+          <br>	
+          <p id="loading-txt" style="text-align: center; font-family: Arial, sans-serif;color: white;font-size: 50px;margin-top: 0px;margin-bottom: 0px;" >Loading...</p>	
+        </div>
+
+
+        <div id="unity-progress-bar-empty" style="display: none;">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+        <div class="spinner"></div>
+      </div>
+    </div>
+    <div id="unity-fullscreen-button" style="display: none;"></div>
+    <script>
+(function () {
+  var blockedHosts = [
+    "imasdk.googleapis.com",
+    "securepubads.g.doubleclick.net",
+    "pagead2.googlesyndication.com",
+    "googletagmanager.com",
+    "google-analytics.com",
+    "gamemonetize.com",
+    "gamonetize.com",
+    "api.gamemonetize.com"
+  ];
+
+  function isBlockedUrl(url) {
+    if (!url) return false;
+    try {
+      var parsed = new URL(url, window.location.href);
+      var host = parsed.hostname;
+      for (var i = 0; i < blockedHosts.length; i += 1) {
+        var blocked = blockedHosts[i];
+        if (host === blocked || host.endsWith("." + blocked)) return true;
+      }
+    } catch (err) {
+      return false;
+    }
+    return false;
+  }
+
+  var origAppend = Element.prototype.appendChild;
+  Element.prototype.appendChild = function (node) {
+    if (node && node.tagName === "SCRIPT" && node.src && isBlockedUrl(node.src)) {
+      return node;
+    }
+    return origAppend.call(this, node);
+  };
+
+  var origInsertBefore = Element.prototype.insertBefore;
+  Element.prototype.insertBefore = function (node, ref) {
+    if (node && node.tagName === "SCRIPT" && node.src && isBlockedUrl(node.src)) {
+      return node;
+    }
+    return origInsertBefore.call(this, node, ref);
+  };
+
+  if (window.fetch) {
+    var origFetch = window.fetch;
+    window.fetch = function (resource, init) {
+      var url = typeof resource === "string" ? resource : resource && resource.url;
+      if (url && isBlockedUrl(url)) {
+        return Promise.resolve(new Response("", { status: 204, statusText: "No Content" }));
+      }
+      return origFetch.apply(this, arguments);
+    };
+  }
+
+  var origOpen = XMLHttpRequest.prototype.open;
+  var origSend = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.open = function (method, url) {
+    this.__blocked = url && isBlockedUrl(url);
+    if (this.__blocked) {
+      this.__blockedUrl = url;
+      return;
+    }
+    return origOpen.apply(this, arguments);
+  };
+  XMLHttpRequest.prototype.send = function () {
+    if (this.__blocked) {
+      try {
+        this.readyState = 4;
+        this.status = 204;
+        if (typeof this.onreadystatechange === "function") this.onreadystatechange();
+        if (typeof this.onload === "function") this.onload();
+      } catch (err) {}
+      return;
+    }
+    return origSend.apply(this, arguments);
+  };
+
+  window.gdsdk = window.gdsdk || {
+    showAd: function (cb) { if (cb) cb(); },
+    showBanner: function () {},
+    hideBanner: function () {},
+    preloadAd: function () {},
+    isReady: function () { return true; }
+  };
+  window.GMSDK = window.GMSDK || window.gdsdk;
+})();
+    </script>
+    <script>
+      const hideFullScreenButton = "";
+      const buildUrl = "Build";
+      const loaderUrl = buildUrl + "/3.loader.js";
+      const config = {
+        dataUrl: buildUrl + "/be9bcb41a490f3d3bc37de97ff006716.data.unityweb",
+        frameworkUrl: buildUrl + "/4be6cbc41f528453bb4b0fcd5ff4fc92.js.unityweb",
+        codeUrl: buildUrl + "/e14b6e2dfc1ef34e9828fdb3202b9fe0.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Diya Games",
+        productName: "Create Your Beach",
+        productVersion: "0.1",
+      };
+
+      const container = document.querySelector("#unity-container");
+      const canvas = document.querySelector("#unity-canvas");
+      const loadingCover = document.querySelector("#loading-cover");
+      const progressBarEmpty = document.querySelector("#unity-progress-bar-empty");
+      const progressBarFull = document.querySelector("#unity-progress-bar-full");
+      const fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      const spinner = document.querySelector('.spinner');
+      canvas.setAttribute("tabindex", "0");
+      const focusCanvas = () => {
+        try { canvas.focus(); } catch (err) {}
+      };
+      canvas.addEventListener("pointerdown", focusCanvas);
+      canvas.addEventListener("touchstart", focusCanvas);
+      window.addEventListener("focus", focusCanvas);
+
+      const canFullscreen = (function() {
+        for (const key of [
+            'exitFullscreen',
+            'webkitExitFullscreen',
+            'webkitCancelFullScreen',
+            'mozCancelFullScreen',
+            'msExitFullscreen',
+          ]) {
+          if (key in document) {
+            return true;
+          }
+        }
+        return false;
+      }());
+
+//      let isMobile = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+//        isMobile = true;
+        config.devicePixelRatio = 1;
+      }
+
+//      function GetIsMobile(){
+//        return isMobile;
+//      }
+
+      canvas.style.background = "url('background.jpg') center / cover";
+      loadingCover.style.display = "";
+
+      const script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          spinner.style.display = "none";
+          progressBarEmpty.style.display = "";
+          progressBarFull.style.width = `${100 * progress}%`;
+        }).then((unityInstance) => {
+          loadingCover.style.display = "none";
+          if (canFullscreen) {
+            if (!hideFullScreenButton) {
+              fullscreenButton.style.display = "";
+            }
+            fullscreenButton.onclick = () => {
+              unityInstance.SetFullscreen(1);
+            };
+          }
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+    <script>
+(function () {
+  if (document.getElementById("playstori-home")) return;
+  var link = document.createElement("a");
+  link.id = "playstori-home";
+  link.setAttribute("aria-label", "Home");
+  link.title = "Home";
+
+  var path = (window.location.pathname || "").replace(/\\/g, "/");
+  var parts = path.split("/");
+  var depth = Math.max(parts.length - 2, 0);
+  var prefix = "";
+  for (var i = 0; i < depth; i += 1) prefix += "../";
+  link.href = prefix + "index.html";
+
+  link.style.position = "fixed";
+  link.style.top = "12px";
+  link.style.right = "12px";
+  link.style.zIndex = "9999";
+  link.style.width = "40px";
+  link.style.height = "40px";
+  link.style.borderRadius = "9999px";
+  link.style.background = "rgba(255,255,255,0.9)";
+  link.style.border = "2px solid rgba(0,0,0,0.2)";
+  link.style.display = "flex";
+  link.style.alignItems = "center";
+  link.style.justifyContent = "center";
+  link.style.textDecoration = "none";
+  link.style.boxShadow = "0 2px 6px rgba(0,0,0,0.25)";
+  link.style.fontFamily = "Arial, sans-serif";
+  link.style.fontSize = "16px";
+  link.style.color = "#222";
+  link.style.userSelect = "none";
+  link.style.pointerEvents = "auto";
+  link.innerHTML = '<svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 3l9 8h-3v9h-5v-6H11v6H6v-9H3l9-8z"></path></svg>';
+  document.body.appendChild(link);
+
+  var requested = false;
+  var requestFullscreen = function () {
+    if (requested) return;
+    requested = true;
+    var el = document.documentElement;
+    if (!el) return;
+    var fn = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
+    if (fn) {
+      try { fn.call(el); } catch (err) { }
+    }
+  };
+  var onFirstInteraction = function (event) {
+    if (event && event.type === "keydown") {
+      var key = event.key || "";
+      if (key !== "Enter" && key !== " " && key !== "Spacebar") return;
+    }
+    requestFullscreen();
+    document.removeEventListener("pointerdown", onFirstInteraction, true);
+    document.removeEventListener("touchend", onFirstInteraction, true);
+    document.removeEventListener("keydown", onFirstInteraction, true);
+  };
+  document.addEventListener("pointerdown", onFirstInteraction, true);
+  document.addEventListener("touchend", onFirstInteraction, true);
+  document.addEventListener("keydown", onFirstInteraction, true);
+})();
+    </script>
+  </body>
+</html>

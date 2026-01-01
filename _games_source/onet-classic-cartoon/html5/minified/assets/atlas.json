@@ -1,0 +1,566 @@
+{
+    "textures": [
+        {
+            "image": "assets/atlas-0.png",
+            "format": "RGBA8888",
+            "size": {
+                "w": 930,
+                "h": 1493
+            },
+            "scale": 1,
+            "frames": [
+                {
+                    "filename": "panel-result.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 500,
+                        "h": 824
+                    },
+                    "spriteSourceSize": {
+                        "x": 15,
+                        "y": 15,
+                        "w": 469,
+                        "h": 794
+                    },
+                    "frame": {
+                        "x": 1,
+                        "y": 1,
+                        "w": 469,
+                        "h": 794
+                    }
+                },
+                {
+                    "filename": "panel-gameover.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 500,
+                        "h": 632
+                    },
+                    "spriteSourceSize": {
+                        "x": 18,
+                        "y": 17,
+                        "w": 457,
+                        "h": 599
+                    },
+                    "frame": {
+                        "x": 472,
+                        "y": 1,
+                        "w": 457,
+                        "h": 599
+                    }
+                },
+                {
+                    "filename": "panel-pause.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 500,
+                        "h": 344
+                    },
+                    "spriteSourceSize": {
+                        "x": 18,
+                        "y": 17,
+                        "w": 457,
+                        "h": 309
+                    },
+                    "frame": {
+                        "x": 472,
+                        "y": 602,
+                        "w": 457,
+                        "h": 309
+                    }
+                },
+                {
+                    "filename": "container-highscore.png",
+                    "rotated": false,
+                    "trimmed": false,
+                    "sourceSize": {
+                        "w": 318,
+                        "h": 195
+                    },
+                    "spriteSourceSize": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 318,
+                        "h": 195
+                    },
+                    "frame": {
+                        "x": 1,
+                        "y": 797,
+                        "w": 318,
+                        "h": 195
+                    }
+                },
+                {
+                    "filename": "header.png",
+                    "rotated": false,
+                    "trimmed": false,
+                    "sourceSize": {
+                        "w": 577,
+                        "h": 127
+                    },
+                    "spriteSourceSize": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 577,
+                        "h": 127
+                    },
+                    "frame": {
+                        "x": 321,
+                        "y": 913,
+                        "w": 577,
+                        "h": 127
+                    }
+                },
+                {
+                    "filename": "footer.png",
+                    "rotated": false,
+                    "trimmed": false,
+                    "sourceSize": {
+                        "w": 721,
+                        "h": 81
+                    },
+                    "spriteSourceSize": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 721,
+                        "h": 81
+                    },
+                    "frame": {
+                        "x": 1,
+                        "y": 1042,
+                        "w": 721,
+                        "h": 81
+                    }
+                },
+                {
+                    "filename": "btn-clean.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 520,
+                        "h": 217
+                    },
+                    "spriteSourceSize": {
+                        "x": 20,
+                        "y": 14,
+                        "w": 479,
+                        "h": 187
+                    },
+                    "frame": {
+                        "x": 1,
+                        "y": 1125,
+                        "w": 479,
+                        "h": 187
+                    }
+                },
+                {
+                    "filename": "container-score.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 248,
+                        "h": 120
+                    },
+                    "spriteSourceSize": {
+                        "x": 0,
+                        "y": 7,
+                        "w": 248,
+                        "h": 113
+                    },
+                    "frame": {
+                        "x": 1,
+                        "y": 1314,
+                        "w": 248,
+                        "h": 113
+                    }
+                },
+                {
+                    "filename": "btn-play.png",
+                    "rotated": false,
+                    "trimmed": false,
+                    "sourceSize": {
+                        "w": 247,
+                        "h": 96
+                    },
+                    "spriteSourceSize": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 247,
+                        "h": 96
+                    },
+                    "frame": {
+                        "x": 482,
+                        "y": 1125,
+                        "w": 247,
+                        "h": 96
+                    }
+                },
+                {
+                    "filename": "btn-new.png",
+                    "rotated": false,
+                    "trimmed": false,
+                    "sourceSize": {
+                        "w": 247,
+                        "h": 95
+                    },
+                    "spriteSourceSize": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 247,
+                        "h": 95
+                    },
+                    "frame": {
+                        "x": 482,
+                        "y": 1223,
+                        "w": 247,
+                        "h": 95
+                    }
+                },
+                {
+                    "filename": "shuffle-icon.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 163,
+                        "h": 162
+                    },
+                    "spriteSourceSize": {
+                        "x": 17,
+                        "y": 32,
+                        "w": 131,
+                        "h": 111
+                    },
+                    "frame": {
+                        "x": 321,
+                        "y": 797,
+                        "w": 131,
+                        "h": 111
+                    }
+                },
+                {
+                    "filename": "hint-icon.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 162,
+                        "h": 161
+                    },
+                    "spriteSourceSize": {
+                        "x": 19,
+                        "y": 20,
+                        "w": 128,
+                        "h": 125
+                    },
+                    "frame": {
+                        "x": 251,
+                        "y": 1314,
+                        "w": 128,
+                        "h": 125
+                    }
+                },
+                {
+                    "filename": "btn-hint.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 120,
+                        "h": 99
+                    },
+                    "spriteSourceSize": {
+                        "x": 15,
+                        "y": 10,
+                        "w": 90,
+                        "h": 81
+                    },
+                    "frame": {
+                        "x": 724,
+                        "y": 1042,
+                        "w": 90,
+                        "h": 81
+                    }
+                },
+                {
+                    "filename": "btn-play-popup.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 134,
+                        "h": 134
+                    },
+                    "spriteSourceSize": {
+                        "x": 10,
+                        "y": 5,
+                        "w": 113,
+                        "h": 124
+                    },
+                    "frame": {
+                        "x": 816,
+                        "y": 1042,
+                        "w": 113,
+                        "h": 124
+                    }
+                },
+                {
+                    "filename": "btn-shuffle.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 120,
+                        "h": 99
+                    },
+                    "spriteSourceSize": {
+                        "x": 16,
+                        "y": 11,
+                        "w": 88,
+                        "h": 79
+                    },
+                    "frame": {
+                        "x": 381,
+                        "y": 1314,
+                        "w": 88,
+                        "h": 79
+                    }
+                },
+                {
+                    "filename": "time-icon.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 162,
+                        "h": 161
+                    },
+                    "spriteSourceSize": {
+                        "x": 23,
+                        "y": 18,
+                        "w": 121,
+                        "h": 130
+                    },
+                    "frame": {
+                        "x": 471,
+                        "y": 1320,
+                        "w": 121,
+                        "h": 130
+                    }
+                },
+                {
+                    "filename": "btn-home.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 134,
+                        "h": 134
+                    },
+                    "spriteSourceSize": {
+                        "x": 11,
+                        "y": 6,
+                        "w": 112,
+                        "h": 122
+                    },
+                    "frame": {
+                        "x": 594,
+                        "y": 1320,
+                        "w": 112,
+                        "h": 122
+                    }
+                },
+                {
+                    "filename": "btn-time.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 121,
+                        "h": 100
+                    },
+                    "spriteSourceSize": {
+                        "x": 15,
+                        "y": 14,
+                        "w": 88,
+                        "h": 79
+                    },
+                    "frame": {
+                        "x": 381,
+                        "y": 1395,
+                        "w": 88,
+                        "h": 79
+                    }
+                },
+                {
+                    "filename": "arrow.png",
+                    "rotated": false,
+                    "trimmed": false,
+                    "sourceSize": {
+                        "w": 103,
+                        "h": 63
+                    },
+                    "spriteSourceSize": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 103,
+                        "h": 63
+                    },
+                    "frame": {
+                        "x": 1,
+                        "y": 1429,
+                        "w": 103,
+                        "h": 63
+                    }
+                },
+                {
+                    "filename": "sign.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 80,
+                        "h": 85
+                    },
+                    "spriteSourceSize": {
+                        "x": 2,
+                        "y": 2,
+                        "w": 77,
+                        "h": 76
+                    },
+                    "frame": {
+                        "x": 731,
+                        "y": 1125,
+                        "w": 77,
+                        "h": 76
+                    }
+                },
+                {
+                    "filename": "btn-sound-off.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 136,
+                        "h": 136
+                    },
+                    "spriteSourceSize": {
+                        "x": 13,
+                        "y": 8,
+                        "w": 110,
+                        "h": 120
+                    },
+                    "frame": {
+                        "x": 731,
+                        "y": 1203,
+                        "w": 110,
+                        "h": 120
+                    }
+                },
+                {
+                    "filename": "btn-sound-on.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 136,
+                        "h": 136
+                    },
+                    "spriteSourceSize": {
+                        "x": 13,
+                        "y": 8,
+                        "w": 110,
+                        "h": 120
+                    },
+                    "frame": {
+                        "x": 708,
+                        "y": 1325,
+                        "w": 110,
+                        "h": 120
+                    }
+                },
+                {
+                    "filename": "shadow.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 105,
+                        "h": 111
+                    },
+                    "spriteSourceSize": {
+                        "x": 2,
+                        "y": 5,
+                        "w": 103,
+                        "h": 106
+                    },
+                    "frame": {
+                        "x": 820,
+                        "y": 1325,
+                        "w": 103,
+                        "h": 106
+                    }
+                },
+                {
+                    "filename": "icon-crown.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 90,
+                        "h": 77
+                    },
+                    "spriteSourceSize": {
+                        "x": 9,
+                        "y": 10,
+                        "w": 70,
+                        "h": 56
+                    },
+                    "frame": {
+                        "x": 106,
+                        "y": 1429,
+                        "w": 70,
+                        "h": 56
+                    }
+                },
+                {
+                    "filename": "btn-pause.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 64,
+                        "h": 64
+                    },
+                    "spriteSourceSize": {
+                        "x": 4,
+                        "y": 2,
+                        "w": 56,
+                        "h": 60
+                    },
+                    "frame": {
+                        "x": 178,
+                        "y": 1429,
+                        "w": 56,
+                        "h": 60
+                    }
+                },
+                {
+                    "filename": "circle.png",
+                    "rotated": false,
+                    "trimmed": true,
+                    "sourceSize": {
+                        "w": 50,
+                        "h": 51
+                    },
+                    "spriteSourceSize": {
+                        "x": 3,
+                        "y": 3,
+                        "w": 45,
+                        "h": 45
+                    },
+                    "frame": {
+                        "x": 1,
+                        "y": 994,
+                        "w": 45,
+                        "h": 45
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "3.0",
+        "smartupdate": "$TexturePacker:SmartUpdate:cdcac698a658c085a88f09cf0cc8a63b:31b17a68e3aa418536a653ad34a94fe6:cf935fe037ea9b5d3744d532996e235e$"
+    }
+}

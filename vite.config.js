@@ -22,8 +22,8 @@ export default defineConfig({
         scope: '/',
         start_url: '/',
         icons: [
-          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' }
+          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' }
         ]
       },
       workbox: {
@@ -35,28 +35,24 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/games\//],
         runtimeCaching: [
           {
-            urlPattern: /\/games\.json$/i,
+            urlPattern: /\/appstorage\/games\.json$/i,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'playstori-data',
-              expiration: { maxEntries: 5, maxAgeSeconds: 60 * 5 }
+              expiration: { maxEntries: 5, maxAgeSeconds: 10 }
             }
           },
           {
-            urlPattern: /^https?:\/\/.*/i,
-            handler: 'NetworkFirst',
-            options: {
-              cacheName: 'playstori-remote',
-              expiration: { maxEntries: 50, maxAgeSeconds: 60 * 60 * 24 * 7 }
-            }
-          },
-          {
-            urlPattern: ({ url }) => url.pathname.startsWith('/games/'),
+            urlPattern: /\/appstorage\/icons\/.*\.(png|jpg|jpeg|webp|svg)$/i,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'playstori-games',
-              expiration: { maxEntries: 200 }
+              cacheName: 'playstori-icons',
+              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 30 }
             }
+          },
+          {
+            urlPattern: /^https:\/\/playstori\.org\/appstorage\/games\/.*\.zip$/i,
+            handler: 'NetworkOnly'
           }
         ]
       }

@@ -1,0 +1,3 @@
+To add new puzzle image, you can put a image (must be jpg format) with 640x640px dimensions, located at img/puzzle.
+
+Then you need to edit "puzzle.js" at "scripts" folder.

@@ -1,0 +1,3000 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<MAP>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_info"  phrase_id="1">
+		<EN>
+			<TEXT>Rules</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Règles</TEXT>
+			<SIZE>0</SIZE>			
+		</FR>
+		<DE>
+			<TEXT>Regeln</TEXT>
+			<SIZE>0</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>Normas</TEXT>
+			<SIZE>0</SIZE>			
+		</ES>
+		<IT>
+			<TEXT>Regole</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_info"  phrase_id="2">
+		<EN>
+			<TEXT>Continue</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Continuer</TEXT>
+			<SIZE>-4</SIZE>			
+		</FR>
+		<DE>
+			<TEXT>Weitermachen</TEXT>
+			<SIZE>-16</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>Continuar</TEXT>
+			<SIZE>-8</SIZE>			
+		</ES>
+		<IT>
+			<TEXT>Continua</TEXT>
+			<SIZE>-8</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+		<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_info"  phrase_id="3">
+		<EN>
+			<TEXT>Your goal is to get the last item in this sequence.</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Votre objectif est d’obtenir le dernier élément de cette séquence.</TEXT>
+			<SIZE>0</SIZE>			
+		</FR>
+		<DE>
+			<TEXT>Ihr Ziel ist es, das letzte Element in dieser Sequenz zu erhalten.</TEXT>
+			<SIZE>0</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>Tu objetivo es conseguir el último elemento de esta secuencia.</TEXT>
+			<SIZE>0</SIZE>			
+		</ES>
+		<IT>
+			<TEXT>Il tuo obiettivo è ottenere l'ultimo oggetto in questa sequenza.</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="stats"  phrase_id="1">
+		<EN>
+			<TEXT>Stats</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Statistiques</TEXT>
+			<SIZE>-4</SIZE>			
+		</FR>
+		<DE>
+			<TEXT>Statistiken</TEXT>
+			<SIZE>-16</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>Estadísticas</TEXT>
+			<SIZE>-8</SIZE>			
+		</ES>
+		<IT>
+			<TEXT>Statistiche</TEXT>
+			<SIZE>-8</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="stats"  phrase_id="2">
+		<EN>
+			<TEXT>Continue</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Continuer</TEXT>
+			<SIZE>-4</SIZE>			
+		</FR>
+		<DE>
+			<TEXT>Weitermachen</TEXT>
+			<SIZE>-16</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>Continuar</TEXT>
+			<SIZE>-8</SIZE>			
+		</ES>
+		<IT>
+			<TEXT>Continua</TEXT>
+			<SIZE>-8</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_failed"  phrase_id="1">
+		<EN>
+			<TEXT>You failed!!</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Tu as échoué !!</TEXT>
+			<SIZE>-4</SIZE>			
+		</FR>
+		<DE>
+			<TEXT>Du hast versagt!!</TEXT>
+			<SIZE>-8</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>¡¡¡Has fallado!!!</TEXT>
+			<SIZE>-8</SIZE>			
+		</ES>
+		<IT>
+			<TEXT>Hai fallito!!</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_failed"  phrase_id="2">
+		<EN>
+			<TEXT>Second\nChance?</TEXT>
+			<SIZE>-4</SIZE>		
+		</EN>
+        <FR>
+			<TEXT>Deuxième\nchance?</TEXT>
+			<SIZE>-6</SIZE>		
+		</FR>
+        <ES>
+			<TEXT>Segunda\noportunidad?</TEXT>
+			<SIZE>-20</SIZE>		
+		</ES>
+        <DE>
+			<TEXT>Zweite\nChance?</TEXT>
+			<SIZE>0</SIZE>		
+	    </DE>
+		
+		<IT>
+			<TEXT>Seconda\npossibilità?</TEXT>
+			<SIZE>-14</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+		<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_failed"  phrase_id="3">
+		<EN>
+			<TEXT>Continue</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Continuer</TEXT>
+			<SIZE>-4</SIZE>			
+		</FR>
+		<DE>
+			<TEXT>Weitermachen</TEXT>
+			<SIZE>-16</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>Continuar</TEXT>
+			<SIZE>-8</SIZE>			
+		</ES>
+		<IT>
+			<TEXT>Continua</TEXT>
+			<SIZE>-8</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_start"  phrase_id="title">
+		<EN>
+			<TEXT>Title mode</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Mode titre</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Titelmodus</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Modo de título</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Modalità titolo</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_start"  phrase_id="icon">
+		<EN>
+			<TEXT>Icon mode</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Mode icône</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Symbolmodus</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Modo de icono</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Modalità icona</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_map" item_id="btn_text"  phrase_id="1">
+		<EN>
+			<TEXT>Play</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Jouer</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Spielen</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Jugar</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Giocare</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_tip" item_id="target"  phrase_id="1">
+		<EN>
+			<TEXT>This target must be found on the field.</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Cette cible doit être trouvée sur le terrain.</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Dieses Ziel muss auf dem Feld gefunden werden.</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Este objetivo debe encontrarse en el campo.</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Questo obiettivo deve essere trovato sul campo.</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_tip" item_id="shop"  phrase_id="2">
+		<EN>
+			<TEXT>Ads are not available now, try again later</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Les annonces ne sont pas disponibles pour le moment, réessayez plus tard</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Derzeit sind keine Anzeigen verfügbar. Versuchen Sie es später noch einmal</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Los anuncios no están disponibles ahora, inténtelo de nuevo más tarde</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Gli annunci non sono disponibili al momento, riprova più tardi</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+<DYNAMIC_PHRASE scene_id="game_tip" item_id="tip"  phrase_id="1">
+		<EN>
+			<TEXT>This is your level score</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Ceci est votre score de niveau</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Das ist dein Levelergebnis</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Esta es tu puntuación de nivel</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Questo è il tuo punteggio di livello</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_tip" item_id="tip"  phrase_id="2">
+		<EN>
+			<TEXT>This is your best score</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>C'est votre meilleur score</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Das ist Ihr bestes Ergebnis</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Esta es tu mejor puntuación</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Questo è il tuo punteggio migliore</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_tip" item_id="tip"  phrase_id="3">
+		<EN>
+			<TEXT>This is the next spawned item</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>C'est le prochain objet généré</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Dies ist das nächste erzeugte Element</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Este es el siguiente elemento generado</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Questo è il prossimo elemento generato</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+<DYNAMIC_PHRASE scene_id="game_windows" item_id="quit"  phrase_id="1">
+		<EN>
+			<TEXT>Quit?</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Quitter?</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Aufhören?</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>¿Abandonar?</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Esci?</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+			<DYNAMIC_PHRASE scene_id="game_windows" item_id="quit"  phrase_id="2">
+		<EN>
+			<TEXT>Yes</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Oui</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Ja</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Sí</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>SÌ</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="quit"  phrase_id="3">
+		<EN>
+			<TEXT>No</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Non</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>NEIN</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>No</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>NO</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+<DYNAMIC_PHRASE scene_id="game_play" item_id="score"  phrase_id="1">
+		<EN>
+			<TEXT>Score</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Score</TEXT>
+			<SIZE>-8</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Punktzahl</TEXT>
+			<SIZE>-10</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Puntaje</TEXT>
+			<SIZE>-12</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Punto</TEXT>
+			<SIZE>-12</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_play" item_id="best_score"  phrase_id="1">
+		<EN>
+			<TEXT>Best Score</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Meilleur score</TEXT>
+			<SIZE>-8</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Bestes Ergebnis</TEXT>
+			<SIZE>-10</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Mejor puntuación</TEXT>
+			<SIZE>-16</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Miglior punteggio</TEXT>
+			<SIZE>-16</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_play" item_id="next_txt"  phrase_id="1">
+		<EN>
+			<TEXT>Next</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Suivant</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Nächste</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Próximo</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Prossimo</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+<DYNAMIC_PHRASE scene_id="test_ad" item_id="rewarded"  phrase_id="1">
+		<EN>
+			<TEXT>Rewarded ad call\n(Your ad could be here)</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Appel publicitaire récompensé\n(Votre annonce pourrait être ici)</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<ES>
+			<TEXT>Llamada publicitaria recompensada\n(Tu anuncio podría estar aquí)</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<DE>
+			<TEXT>Anzeigenaufruf mit Prämie\n(Ihre Anzeige könnte hier stehen)</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<IT>
+			<TEXT>Chiamata pubblicitaria con premio\n(Il tuo annuncio potrebbe essere qui)</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="test_ad" item_id="interstitial"  phrase_id="1">
+		<EN>
+			<TEXT>Interstitial ad call\n(Your ad could be here)</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Appel d'annonce interstitielle\n(Votre annonce pourrait être ici)</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<ES>
+			<TEXT>Llamada de anuncio intersticial\n(Tu anuncio podría estar aquí)</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<DE>
+			<TEXT>Interstitial-Anzeigenaufruf\n(Ihre Anzeige könnte hier stehen)</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<IT>
+			<TEXT>Chiamata dell'annuncio interstitial\n(Il tuo annuncio potrebbe essere qui)</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="purchase_failed"  phrase_id="1">
+		<EN>
+			<TEXT>Purchase failed</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>L’achat n’est pas réalisé</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Kauf gescheitert</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>La compra falló</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Acquisto fallito</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+		<DYNAMIC_PHRASE scene_id="game_windows" item_id="purchase_failed"  phrase_id="3">
+		<EN>
+			<TEXT>Continue</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Continuer</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Weite</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Continuar modo</TEXT>
+			<SIZE>-16</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Continua</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="purchase_complete"  phrase_id="1">
+		<EN>
+			<TEXT>Purchase is successfully completed!</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>L’achat est réalisé!</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Kauf erfolgreich abgeschlossen!</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>¡La compra fue exitosa!</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Acquisto completato con successo!</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>  
+			<DYNAMIC_PHRASE scene_id="game_windows" item_id="purchase_complete"  phrase_id="3">
+		<EN>
+			<TEXT>Continue</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Continuer</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Weite</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Continuar modo</TEXT>
+			<SIZE>-16</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Continua</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="remove_ads"  phrase_id="1">
+		<EN>
+			<TEXT>Disable ads</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Désactiver les publicités</TEXT>
+			<SIZE>-12</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Werbungen ausschalten</TEXT>
+			<SIZE>-12</SIZE>			
+		</DE>
+		<ES>
+			<TEXT>Desactivar los anuncios</TEXT>
+			<SIZE>-12</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Disattiva gli annunci</TEXT>
+			<SIZE>-8</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_finished"  phrase_id="1">
+		<EN>
+			<TEXT>Level finished!</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Niveau terminé !</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Level beendet!</TEXT>
+			<SIZE>-8</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>¡Nivel terminado!</TEXT>
+			<SIZE>-6</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Livello completato!</TEXT>
+			<SIZE>-6</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE> 
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_finished"  phrase_id="2">
+		<EN>
+			<TEXT>Best!</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+        <FR>
+			<TEXT>Meilleur!</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+        <DE>
+			<TEXT>Am besten!</TEXT>
+			<SIZE>0</SIZE>		
+	    </DE>
+        <ES>
+			<TEXT>Lo mejor</TEXT>
+			<SIZE>-4</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Migliore!</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+		<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_finished"  phrase_id="3">
+		<EN>
+			<TEXT>Score</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+        <FR>
+			<TEXT>Score</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+        <DE>
+			<TEXT>Punktzahl</TEXT>
+			<SIZE>0</SIZE>		
+	    </DE>
+        <ES>
+			<TEXT>Puntaje</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Punto</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_finished"  phrase_id="4">
+		<EN>
+			<TEXT>Continue</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Continuer</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Weite</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Continuar modo</TEXT>
+			<SIZE>-12</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Continua</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_complete"  phrase_id="1">
+		<EN>
+			<TEXT>Level complete!</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Niveau terminé !</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Level abgeschlossen!</TEXT>
+			<SIZE>-8</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>¡Nivel completado!</TEXT>
+			<SIZE>-6</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Livello completato!</TEXT>
+			<SIZE>-6</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE> 
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_complete"  phrase_id="2">
+		<EN>
+			<TEXT>Win amount</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+        <FR>
+			<TEXT>Montant du gain</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+        <DE>
+			<TEXT>Gewinnbetrag</TEXT>
+			<SIZE>0</SIZE>		
+	    </DE>
+        <ES>
+			<TEXT>Monto de la ganancia</TEXT>
+			<SIZE>-4</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Importo vinto</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+		<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_complete"  phrase_id="3">
+		<EN>
+			<TEXT>Score</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+        <FR>
+			<TEXT>Score</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+        <DE>
+			<TEXT>Punktzahl</TEXT>
+			<SIZE>0</SIZE>		
+	    </DE>
+        <ES>
+			<TEXT>Puntaje</TEXT>
+			<SIZE>0</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Punto</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+	<DYNAMIC_PHRASE scene_id="game_windows" item_id="level_complete"  phrase_id="4">
+		<EN>
+			<TEXT>Continue</TEXT>
+			<SIZE>0</SIZE>		
+		</EN>
+		<FR>
+			<TEXT>Continuer</TEXT>
+			<SIZE>0</SIZE>		
+		</FR>
+		<DE>
+			<TEXT>Weite</TEXT>
+			<SIZE>0</SIZE>		
+		</DE>
+		<ES>
+			<TEXT>Continuar modo</TEXT>
+			<SIZE>-12</SIZE>		
+		</ES>
+		<IT>
+			<TEXT>Continua</TEXT>
+			<SIZE>0</SIZE>		
+		</IT>
+	</DYNAMIC_PHRASE>
+
+  <DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="1inch">
+				<EN>
+					<TEXT>1INCH</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>1INCH</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>1INCH</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>1INCH</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>1INCH</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="agix">
+				<EN>
+					<TEXT>AGIX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>AGIX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>AGIX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>AGIX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>AGIX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="arweave">
+				<EN>
+					<TEXT>ARWEAVE</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>ARWEAVE</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>ARWEAVE</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>ARWEAVE</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>ARWEAVE</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="atari">
+				<EN>
+					<TEXT>ATARI</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>ATARI</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>ATARI</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>ATARI</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>ATARI</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="avax">
+				<EN>
+					<TEXT>AVAX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>AVAX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>AVAX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>AVAX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>AVAX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="bix">
+				<EN>
+					<TEXT>BIX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>BIX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>BIX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>BIX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>BIX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="bnb">
+				<EN>
+					<TEXT>BNB</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>BNB</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>BNB</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>BNB</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>BNB</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="bonk">
+				<EN>
+					<TEXT>BONK</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>BONK</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>BONK</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>BONK</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>BONK</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="btc">
+				<EN>
+					<TEXT>BTC</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>BTC</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>BTC</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>BTC</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>BTC</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="cake">
+				<EN>
+					<TEXT>CAKE</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>CAKE</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>CAKE</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>CAKE</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>CAKE</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="chiliz">
+				<EN>
+					<TEXT>CHILIZ</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>CHILIZ</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>CHILIZ</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>CHILIZ</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>CHILIZ</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="doge">
+				<EN>
+					<TEXT>DOGE</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>DOGE</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>DOGE</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>DOGE</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>DOGE</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="dogs">
+				<EN>
+					<TEXT>DOGS</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>DOGS</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>DOGS</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>DOGS</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>DOGS</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="eth">
+				<EN>
+					<TEXT>ETH</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>ETH</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>ETH</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>ETH</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>ETH</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="eurs">
+				<EN>
+					<TEXT>EURS</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>EURS</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>EURS</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>EURS</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>EURS</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="exrd">
+				<EN>
+					<TEXT>EXRD</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>EXRD</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>EXRD</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>EXRD</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>EXRD</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="gomining">
+				<EN>
+					<TEXT>GOMINING</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>GOMINING</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>GOMINING</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>GOMINING</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>GOMINING</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="hamster">
+				<EN>
+					<TEXT>HAMSTER</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>HAMSTER</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>HAMSTER</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>HAMSTER</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>HAMSTER</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="helium">
+				<EN>
+					<TEXT>HELIUM</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>HELIUM</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>HELIUM</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>HELIUM</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>HELIUM</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="jetton">
+				<EN>
+					<TEXT>JETTON</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>JETTON</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>JETTON</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>JETTON</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>JETTON</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="jupiter">
+				<EN>
+					<TEXT>JUPITER</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>JUPITER</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>JUPITER</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>JUPITER</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>JUPITER</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="kucoin">
+				<EN>
+					<TEXT>KUCOIN</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>KUCOIN</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>KUCOIN</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>KUCOIN</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>KUCOIN</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="lina">
+				<EN>
+					<TEXT>LINA</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>LINA</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>LINA</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>LINA</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>LINA</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="link">
+				<EN>
+					<TEXT>LINK</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>LINK</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>LINK</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>LINK</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>LINK</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="lisk">
+				<EN>
+					<TEXT>LISK</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>LISK</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>LISK</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>LISK</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>LISK</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ltc">
+				<EN>
+					<TEXT>LTC</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>LTC</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>LTC</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>LTC</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>LTC</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="mdx">
+				<EN>
+					<TEXT>MDX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>MDX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>MDX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>MDX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>MDX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="meetone">
+				<EN>
+					<TEXT>MEETONE</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>MEETONE</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>MEETONE</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>MEETONE</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>MEETONE</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="nas">
+				<EN>
+					<TEXT>NAS</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>NAS</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>NAS</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>NAS</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>NAS</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="near">
+				<EN>
+					<TEXT>NEAR</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>NEAR</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>NEAR</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>NEAR</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>NEAR</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="nebl">
+				<EN>
+					<TEXT>NEBL</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>NEBL</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>NEBL</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>NEBL</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>NEBL</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="nest">
+				<EN>
+					<TEXT>NEST</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>NEST</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>NEST</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>NEST</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>NEST</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ngc">
+				<EN>
+					<TEXT>NGC</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>NGC</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>NGC</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>NGC</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>NGC</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="nmc">
+				<EN>
+					<TEXT>NMC</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>NMC</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>NMC</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>NMC</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>NMC</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="not">
+				<EN>
+					<TEXT>NOT</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>NOT</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>NOT</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>NOT</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>NOT</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="oax">
+				<EN>
+					<TEXT>OAX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>OAX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>OAX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>OAX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>OAX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ong">
+				<EN>
+					<TEXT>ONG</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>ONG</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>ONG</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>ONG</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>ONG</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="oxygen">
+				<EN>
+					<TEXT>OXYGEN</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>OXYGEN</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>OXYGEN</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>OXYGEN</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>OXYGEN</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="pepe">
+				<EN>
+					<TEXT>PEPE</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>PEPE</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>PEPE</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>PEPE</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>PEPE</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="polis">
+				<EN>
+					<TEXT>POLIS</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>POLIS</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>POLIS</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>POLIS</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>POLIS</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="polkadot">
+				<EN>
+					<TEXT>POLKADOT</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>POLKADOT</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>POLKADOT</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>POLKADOT</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>POLKADOT</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="polygon">
+				<EN>
+					<TEXT>POLYGON</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>POLYGON</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>POLYGON</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>POLYGON</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>POLYGON</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="qkc">
+				<EN>
+					<TEXT>QKC</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>QKC</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>QKC</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>QKC</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>QKC</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="qrl">
+				<EN>
+					<TEXT>QRL</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>QRL</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>QRL</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>QRL</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>QRL</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="rarl">
+				<EN>
+					<TEXT>RARL</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>RARL</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>RARL</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>RARL</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>RARL</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ray">
+				<EN>
+					<TEXT>RAY</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>RAY</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>RAY</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>RAY</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>RAY</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ren">
+				<EN>
+					<TEXT>REN</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>REN</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>REN</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>REN</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>REN</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="render">
+				<EN>
+					<TEXT>RENDER</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>RENDER</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>RENDER</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>RENDER</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>RENDER</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="rev">
+				<EN>
+					<TEXT>REV</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>REV</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>REV</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>REV</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>REV</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="rsv">
+				<EN>
+					<TEXT>RSV</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>RSV</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>RSV</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>RSV</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>RSV</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="safemoon">
+				<EN>
+					<TEXT>SAFEMOON</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SAFEMOON</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SAFEMOON</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SAFEMOON</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SAFEMOON</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="shiba">
+				<EN>
+					<TEXT>SHIBA</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SHIBA</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SHIBA</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SHIBA</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SHIBA</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="shift">
+				<EN>
+					<TEXT>SHIFT</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SHIFT</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SHIFT</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SHIFT</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SHIFT</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ship">
+				<EN>
+					<TEXT>SHIP</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SHIP</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SHIP</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SHIP</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SHIP</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="sir">
+				<EN>
+					<TEXT>SIR</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SIR</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SIR</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SIR</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SIR</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="smart">
+				<EN>
+					<TEXT>SMART</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SMART</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SMART</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SMART</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SMART</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="sngls">
+				<EN>
+					<TEXT>SNGLS</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SNGLS</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SNGLS</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SNGLS</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SNGLS</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="snm">
+				<EN>
+					<TEXT>SNM</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SNM</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SNM</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SNM</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SNM</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="sol">
+				<EN>
+					<TEXT>SOL</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SOL</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SOL</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SOL</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SOL</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="solo">
+				<EN>
+					<TEXT>SOLO</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SOLO</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SOLO</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SOLO</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SOLO</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="start">
+				<EN>
+					<TEXT>START</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>START</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>START</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>START</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>START</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="stmx">
+				<EN>
+					<TEXT>STMX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>STMX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>STMX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>STMX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>STMX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="stq">
+				<EN>
+					<TEXT>STQ</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>STQ</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>STQ</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>STQ</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>STQ</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="strk">
+				<EN>
+					<TEXT>STRK</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>STRK</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>STRK</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>STRK</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>STRK</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="stx">
+				<EN>
+					<TEXT>STX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>STX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>STX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>STX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>STX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="sumo">
+				<EN>
+					<TEXT>SUMO</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SUMO</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SUMO</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SUMO</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SUMO</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="super">
+				<EN>
+					<TEXT>SUPER</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SUPER</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SUPER</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SUPER</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SUPER</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="sushi">
+				<EN>
+					<TEXT>SUSHI</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SUSHI</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SUSHI</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SUSHI</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SUSHI</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="swap">
+				<EN>
+					<TEXT>SWAP</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>SWAP</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>SWAP</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>SWAP</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>SWAP</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="terra">
+				<EN>
+					<TEXT>TERRA</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>TERRA</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>TERRA</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>TERRA</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>TERRA</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="theta">
+				<EN>
+					<TEXT>THETA</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>THETA</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>THETA</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>THETA</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>THETA</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="titan">
+				<EN>
+					<TEXT>TITAN</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>TITAN</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>TITAN</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>TITAN</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>TITAN</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ton">
+				<EN>
+					<TEXT>TON</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>TON</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>TON</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>TON</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>TON</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="tor">
+				<EN>
+					<TEXT>TOR</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>TOR</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>TOR</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>TOR</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>TOR</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="torn">
+				<EN>
+					<TEXT>TORN</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>TORN</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>TORN</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>TORN</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>TORN</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="trx">
+				<EN>
+					<TEXT>TRX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>TRX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>TRX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>TRX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>TRX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="ubt">
+				<EN>
+					<TEXT>UBT</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>UBT</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>UBT</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>UBT</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>UBT</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="uni">
+				<EN>
+					<TEXT>UNI</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>UNI</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>UNI</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>UNI</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>UNI</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="uos">
+				<EN>
+					<TEXT>UOS</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>UOS</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>UOS</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>UOS</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>UOS</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="usdc">
+				<EN>
+					<TEXT>USDC</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>USDC</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>USDC</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>USDC</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>USDC</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="usdt">
+				<EN>
+					<TEXT>USDT</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>USDT</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>USDT</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>USDT</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>USDT</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="vgx">
+				<EN>
+					<TEXT>VGX</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>VGX</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>VGX</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>VGX</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>VGX</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="vibe">
+				<EN>
+					<TEXT>VIBE</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>VIBE</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>VIBE</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>VIBE</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>VIBE</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="vrt">
+				<EN>
+					<TEXT>VRT</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>VRT</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>VRT</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>VRT</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>VRT</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="wgro">
+				<EN>
+					<TEXT>WGRO</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>WGRO</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>WGRO</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>WGRO</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>WGRO</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="xem">
+				<EN>
+					<TEXT>XEM</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>XEM</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>XEM</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>XEM</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>XEM</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="xpm">
+				<EN>
+					<TEXT>XPM</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>XPM</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>XPM</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>XPM</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>XPM</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="xrp">
+				<EN>
+					<TEXT>XRP</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>XRP</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>XRP</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>XRP</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>XRP</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="youc">
+				<EN>
+					<TEXT>YOUC</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>YOUC</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>YOUC</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>YOUC</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>YOUC</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+		
+
+			<DYNAMIC_PHRASE scene_id="game_play" item_id="target"  phrase_id="zks">
+				<EN>
+					<TEXT>ZKS</TEXT>
+					<SIZE>0</SIZE>		
+				</EN>
+				<FR>
+					<TEXT>ZKS</TEXT>
+					<SIZE>0</SIZE>		
+				</FR>
+				<DE>
+					<TEXT>ZKS</TEXT>
+					<SIZE>0</SIZE>		
+				</DE>
+				<ES>
+					<TEXT>ZKS</TEXT>
+					<SIZE>0</SIZE>		
+				</ES>
+				<IT>
+					<TEXT>ZKS</TEXT>
+					<SIZE>0</SIZE>		
+				</IT>
+			</DYNAMIC_PHRASE>
+
+	<DYNAMIC_PHRASE scene_id="game_play" item_id="target" phrase_id="test">
+        <EN><TEXT>Test</TEXT><SIZE>0</SIZE></EN>
+        <FR><TEXT>Test</TEXT><SIZE>0</SIZE></FR>
+        <DE><TEXT>Test</TEXT><SIZE>0</SIZE></DE>
+        <ES><TEXT>Test</TEXT><SIZE>0</SIZE></ES>
+        <IT><TEXT>Test</TEXT><SIZE>0</SIZE></IT>
+    </DYNAMIC_PHRASE>
+		
+
+
+	
+</MAP>

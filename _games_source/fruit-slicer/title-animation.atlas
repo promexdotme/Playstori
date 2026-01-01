@@ -1,0 +1,237 @@
+
+title-animation.png
+size: 1844,504
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 443, 131
+  size: 245, 213
+  orig: 245, 213
+  offset: 0, 0
+  index: -1
+Bomb
+  rotate: false
+  xy: 689, 116
+  size: 193, 228
+  orig: 197, 232
+  offset: 2, 2
+  index: -1
+F
+  rotate: true
+  xy: 689, 16
+  size: 99, 140
+  orig: 103, 144
+  offset: 2, 2
+  index: -1
+FRU Cross
+  rotate: false
+  xy: 1253, 99
+  size: 239, 100
+  orig: 241, 104
+  offset: 1, 2
+  index: -1
+Fire-1
+  rotate: false
+  xy: 830, 66
+  size: 49, 49
+  orig: 53, 54
+  offset: 2, 3
+  index: -1
+Fire-3
+  rotate: false
+  xy: 1766, 236
+  size: 66, 66
+  orig: 74, 74
+  offset: 4, 4
+  index: -1
+Fire_2
+  rotate: false
+  xy: 1788, 449
+  size: 55, 54
+  orig: 62, 61
+  offset: 4, 4
+  index: -1
+Fruit back
+  rotate: false
+  xy: 443, 345
+  size: 414, 158
+  orig: 418, 162
+  offset: 2, 2
+  index: -1
+I
+  rotate: true
+  xy: 1493, 92
+  size: 62, 139
+  orig: 67, 143
+  offset: 3, 2
+  index: -1
+Knife
+  rotate: false
+  xy: 1388, 7
+  size: 98, 91
+  orig: 102, 95
+  offset: 2, 2
+  index: -1
+Knifee
+  rotate: false
+  xy: 1104, 163
+  size: 148, 208
+  orig: 148, 208
+  offset: 0, 0
+  index: -1
+Ninja
+  rotate: false
+  xy: 1491, 389
+  size: 296, 114
+  orig: 301, 118
+  offset: 2, 2
+  index: -1
+Ninja back
+  rotate: false
+  xy: 1, 6
+  size: 312, 123
+  orig: 316, 127
+  offset: 2, 2
+  index: -1
+Ninja cross
+  rotate: false
+  xy: 1493, 155
+  size: 211, 57
+  orig: 217, 64
+  offset: 3, 4
+  index: -1
+Orange bottom
+  rotate: true
+  xy: 1487, 6
+  size: 85, 94
+  orig: 90, 98
+  offset: 3, 2
+  index: -1
+Orange top
+  rotate: false
+  xy: 1582, 5
+  size: 84, 86
+  orig: 88, 93
+  offset: 2, 2
+  index: -1
+R
+  rotate: true
+  xy: 314, 6
+  size: 123, 142
+  orig: 128, 146
+  offset: 2, 2
+  index: -1
+Shadow
+  rotate: false
+  xy: 1, 130
+  size: 441, 373
+  orig: 451, 383
+  offset: 5, 5
+  index: -1
+Slice
+  rotate: false
+  xy: 1182, 381
+  size: 308, 122
+  orig: 312, 126
+  offset: 2, 2
+  index: -1
+Slice back
+  rotate: false
+  xy: 858, 372
+  size: 323, 131
+  orig: 327, 135
+  offset: 2, 2
+  index: -1
+Star
+  rotate: false
+  xy: 1633, 92
+  size: 62, 62
+  orig: 70, 71
+  offset: 4, 5
+  index: -1
+T
+  rotate: false
+  xy: 1146, 19
+  size: 100, 143
+  orig: 104, 148
+  offset: 2, 2
+  index: -1
+U
+  rotate: true
+  xy: 1247, 6
+  size: 92, 140
+  orig: 96, 144
+  offset: 2, 2
+  index: -1
+UIT Cross
+  rotate: true
+  xy: 1732, 221
+  size: 167, 33
+  orig: 171, 36
+  offset: 2, 1
+  index: -1
+Watermelon
+  rotate: false
+  xy: 457, 10
+  size: 120, 120
+  orig: 124, 124
+  offset: 2, 2
+  index: -1
+Watermelon bottom
+  rotate: false
+  xy: 1766, 303
+  size: 77, 85
+  orig: 81, 89
+  offset: 2, 2
+  index: -1
+Watermelon bottom  title
+  rotate: true
+  xy: 578, 11
+  size: 119, 110
+  orig: 123, 115
+  offset: 2, 2
+  index: -1
+Watermelon bottom title
+  rotate: false
+  xy: 1705, 113
+  size: 110, 99
+  orig: 115, 103
+  offset: 3, 2
+  index: -1
+Watermelon top
+  rotate: false
+  xy: 1696, 14
+  size: 112, 98
+  orig: 116, 103
+  offset: 2, 2
+  index: -1
+rays-1
+  rotate: false
+  xy: 1253, 200
+  size: 238, 180
+  orig: 284, 222
+  offset: 31, 15
+  index: -1
+rays-2
+  rotate: false
+  xy: 1492, 213
+  size: 239, 175
+  orig: 291, 202
+  offset: 29, 9
+  index: -1
+rays-3
+  rotate: false
+  xy: 883, 1
+  size: 262, 161
+  orig: 299, 187
+  offset: 5, 10
+  index: -1
+rays-4
+  rotate: false
+  xy: 883, 163
+  size: 220, 208
+  orig: 264, 244
+  offset: 21, 25
+  index: -1

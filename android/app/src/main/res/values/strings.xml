@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Playstori Kids Launcher</string>
+    <string name="title_activity_main">Playstori Kids Launcher</string>
+    <string name="package_name">com.playstori.launcher</string>
+    <string name="custom_url_scheme">com.playstori.launcher</string>
+</resources>

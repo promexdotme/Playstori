@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Documentation</title>
+	<link href="https://fonts.googleapis.com/css2?family=Mali&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
+		.bold {
+			font-weight: 700;
+		}
+		.container {
+			max-width: 1200px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		hr {
+		    border-top: 1 px solid rgba(16, 85, 96, 0.1);
+		}
+		.divider {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.section {
+			border-bottom: 1px solid rgba(0,0,0,.1);
+			padding-bottom: 30px;
+			margin-bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="content">
+		<div class="section">
+			<h1 class="bold">Documentation</h1>
+		</div>
+		<div class="section">
+			<h2>Installation</h2>
+			<p>
+				Actually there is no installation proccess for HTML5 content, you can just double-click .html file to open it.<br>
+				But there are a restriction for local HTML file, browser can't load local files, so this restriction causing all game assets like images and sounds can't be loaded and shown.
+			</p>
+			<p>
+				You can fix it by opening the game (html) with localserver.<br>
+				Local server apps: Laragon, NodeJS, USBWebserver (Light weight) and there are many other similar software.
+			</p>
+			<p>If you upload the game files on live webserver (Your website), it should run fine without any technical issues.</p>
+		</div>
+		<div class="section">
+			<h2>Item Structure</h2>
+			<p>As you see, there is 2 main folder inside item file, "cloudarcade" and "html5" folder.</p>
+			<p>
+				<strong>cloudarcade</strong> folder mean, the game inside this folder is suitable for CloudArcade CMS or this game version is already integrated with CloudArcade API.
+			</p>
+			<p>
+				<strong>html5</strong> folder mean, is a clean version of the game or the main game files, this version is not contain any external API and can be used as your base project.
+			</p>
+			<p>
+				Both these 2 folder have 2 folder inside, "minified" and "source", what it's mean ? <b>"minified"</b> mean, all the scripts inside this folder is minified or obsfucated, simply the script is protected and very hard to read, so anyone who play your game and inspect it can't copy or stole the game code or make it harder for anyone who trying to hack or crack the game.<br>
+				This "minified" version is strongly recommended to be published online (public).
+			</p>
+			<p><b>"source"</b> or also called the source code, the game scripts on this version is readable and this version is used for base project, example if you want to edit game scripts or modify the game.</p>
+		</div>
+		<div class="section">
+			<h2>Game Structure</h2>
+			<ul>
+				<li>audio/</li>
+				<li>fonts/</li>
+				<li>images/</li>
+				<li>scripts/</li>
+				<li>index.html</li>
+			</ul>
+			<p>
+				<h3>audio</h3>
+				<p>All game sounds in stored on this folder</p>
+			</p>
+			<p>
+				<h3>fonts</h3>
+				<p>All game fonts used in the game is stored on this folder</p>
+			</p>
+			<p>
+				<h3>images</h3>
+				<p>All game sprites / images used in the game is stored on this folder</p>
+			</p>
+			<p>
+				<h3>scripts</h3>
+				<p>All game scripts (Javascript) is stored on this folder</p>
+			</p>
+			<p>
+				<h3>index.html</h3>
+				<p>index.html is the main page/file where you play the game, also game fonts is loaded from index.html</p>
+			</p>
+		</div>
+		<div class="section">
+			<h2>Game scripts</h2>
+			<p>This section is refering game scripts inside "scripts" folder</p>
+			<p>Each scene of the game is separated by script file</p>
+			<p>File list:</p>
+			<ol>
+				<li>phaser.min.js</li>
+				<li>lib.js</li>
+				<li>global.js</li>
+				<li>boot.js</li>
+				<li>preload.js</li>
+				<li>home.js</li>
+				<li>game.js</li>
+			</ol>
+			<p>
+				<h3>phaser.min.js</h3>
+				<p>This game is using Phaser 3 framework, and this is the framework script/file.</p>
+			</p>
+			<p>
+				<h3>lib.js</h3>
+				<p>lib.js is a script shortcut, you can play audio with playSound(sound, scope), create a game button with createButton(x, y, key, scope), manage localstorage and more.</p>
+			</p>
+			<p>
+				<h3>global.js</h3>
+				<p>global.js is used to store global functions and variable, a function or variable that are outside of scene class or used across game scene like bestscore variable.</p>
+			</p>
+			<p>
+				<h3>boot.js</h3>
+				<p>boot.js or "Boot" scene loaded initially when the game opened, boot.js purpose is to load initial files (background, game title and start button) that will be shown on the "preload" scene.</p>
+			</p>
+			<p>
+				<h3>preload.js</h3>
+				<p>After "Boot" scene that load initial files finished, scene will be moved to "Preload", all game files will be loaded here also it's show loading progress, background, and game title that has been loaded from "Boot".</p>
+			</p>
+			<p>
+				<h3>home.js</h3>
+				<p>After all game files has been loaded from "Preload" scene, start button will be shown (If exist). if start button clicked, scene will be moved to "Home" (home.js)</p>
+			</p>
+			<p>
+				<h3>game.js</h3>
+				<p>All gameplay related script is stored here, this script handle all logic from the gameplay.</p>
+				<p>If you scroll to the bottom of game.js file, you will see "config" variable that used for Phaser configuration</p>
+				<p>In the bottom of "config" variable, you will see <br><br><code>var game = new Phaser.Game(config);</code><br><br>
+				This is where the game script begin, without this script line, the game script will never be started and just show empty/blank page.
+				</p>
+			</p>
+		</div>
+		<div class="section">
+			<h1>Level difficulty adjustment</h1>
+			<p>To adjust the difficulty or the amount of the blocks required, you can edit "scripts/level.js"</p>
+			<img src="https://gimcraft.com/doc-img/city-builder-1.png">
+			<p>X : x is the horizontal position of the building sprite position in Level/Map scene.</p>
+			<p>Y : y is the vertical position of the building sprite position in Level/Map scene.</p>
+			<img src="https://gimcraft.com/doc-img/city-builder-2.png">
+			<p>pointRequired : The amount of points player need to achieve to complete the stage.</p>
+			<p>blockAmount : Total blocks available in this stage.</p>
+			<p>building : Building key/sprite, similar to "building1.png"</p>
+		</div>
+		<div class="section">
+			<h1>Add a new stage or building</h1>
+			<p>To add a new stage, you can edit "scripts/level.js"</p>
+			<p>Add a new array data in "levelData" variable at the bottom.</p>
+			<img src="https://gimcraft.com/doc-img/city-builder-3.png">
+			<p>Don't forget to adjust the point required and other values.</p>
+			<p>Put a new image in images folder and name it "building9.png", image format must be transparent .png</p>
+			<p>Edit "scripts/preload.js"</p>
+			<p>Then load the last added image</p>
+			<code>this.load.image('building9','images/building9.png');</code>
+			<p>Done. You can play the game to check the changes.</p>
+		</div>
+		<div class="section">
+			<h1>Game Coding/Scripting</h1>
+			<p>Here is some good Phaser 3 reference:</p>
+			<ul>
+				<li><a href="https://rexrainbow.github.io/phaser3-rex-notes/docs/site/" target="_blank">https://rexrainbow.github.io/phaser3-rex-notes/docs/site/</a> (Good Phaser 3 documentation)</li>
+				<li><a href="https://photonstorm.github.io/phaser3-docs/index.html" target="_blank">https://photonstorm.github.io/phaser3-docs/index.html</a> (Official)</li>
+			</ul>
+		</div>
+		<div class="section">
+			<h1 style="text-align: center; font-style: italic;">Thanks for your purchase!</h1>
+		</div>
+	</div>
+</div>
+</body>
+</html>

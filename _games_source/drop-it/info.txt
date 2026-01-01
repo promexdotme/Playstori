@@ -1,0 +1,8 @@
+- cloudarcade : Already integrated with CloudArcade API
+- html5 : Clean version, no external API
+
+minify = Obsfucated code, use "minify" version for production
+
+
+
+Thanks for your purchase!
