@@ -1,0 +1,768 @@
+{
+    "manifestVersion": 1,
+    "settings": {
+        "sponsorUrl": "https://github.com/playstori"
+    },
+    "games": [
+        {
+            "id": "animals-word",
+            "name": "Animals Word",
+            "tag": "word",
+            "category": "✨ Learning Adventures",
+            "version": 1,
+            "description": "Learn animal names!",
+            "path": "appstorage/games/animals-word/index.html",
+            "thumb": "appstorage/icons/animals-word.png"
+        },
+        {
+            "id": "angry-block",
+            "name": "Angry Block",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Smash through levels with snappy block action.",
+            "path": "appstorage/games/angry-block/index.html",
+            "thumb": "appstorage/icons/angry-block.png"
+        },
+        {
+            "id": "carcrash",
+            "name": "Don't Crash",
+            "tag": "racing",
+            "category": "🏎️ Fast & Fun",
+            "version": 1,
+            "description": "Dodge traffic and avoid the pileups.",
+            "path": "appstorage/games/carcrash/index.html",
+            "thumb": "appstorage/icons/carcrash.png"
+        },
+        {
+            "id": "crate-conjurer",
+            "name": "Crate Conjurer",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Conjure and place crates to solve tricky layouts.",
+            "path": "appstorage/games/crate-conjurer/index.html",
+            "thumb": "appstorage/icons/crate-conjurer.png"
+        },
+        {
+            "id": "trucker",
+            "name": "Trucker",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Guide the trucks to their routes without collisions.",
+            "path": "appstorage/games/trucker/index.html",
+            "thumb": "appstorage/icons/trucker.png"
+        },
+        {
+            "id": "spot-difference",
+            "name": "Spot The Difference",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Find the hidden differences in the garden scenes.",
+            "path": "appstorage/games/spot-difference/index.html",
+            "thumb": "appstorage/icons/spot-difference.png"
+        },
+        {
+            "id": "popit-master",
+            "name": "Pop It Master",
+            "tag": "casual",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Pop every bubble across colorful boards.",
+            "path": "appstorage/games/popit-master/index.html",
+            "thumb": "appstorage/icons/popit-master.png"
+        },
+        {
+            "id": "fruit-slicer",
+            "name": "Ninja Fruit Slice",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Slice the flying fruit with quick swipes.",
+            "path": "appstorage/games/fruit-slicer/index.html",
+            "thumb": "appstorage/icons/fruit-slicer.png"
+        },
+        {
+            "id": "fruit-merge",
+            "name": "Fruit Merge Reloaded",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Combine matching fruit to reach bigger merges.",
+            "path": "appstorage/games/fruit-merge/index.html",
+            "thumb": "appstorage/icons/fruit-merge.png"
+        },
+        {
+            "id": "battleship",
+            "name": "Battleship",
+            "tag": "board",
+            "category": "🎲 Classic Tabletop",
+            "version": 1,
+            "description": "Classic Battleship board game.",
+            "path": "appstorage/games/battleship/index.html",
+            "thumb": "appstorage/icons/battleship.png"
+        },
+        {
+            "id": "blossom",
+            "name": "Blossom",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Blossom.",
+            "path": "appstorage/games/blossom/html5/minified/index.html",
+            "thumb": "appstorage/icons/blossom.jpg"
+        },
+        {
+            "id": "bubble-shooter",
+            "name": "Bubble Shooter",
+            "tag": "puzzle",
+            "category": "🎯 Target & Aim",
+            "version": 1,
+            "description": "Pop bubbles and clear the board.",
+            "path": "appstorage/games/bubble-shooter/html5/minified/index.html",
+            "thumb": "appstorage/icons/bubble-shooter.png"
+        },
+        {
+            "id": "checkers",
+            "name": "Checkers",
+            "tag": "board",
+            "category": "🎲 Classic Tabletop",
+            "version": 1,
+            "description": "Classic Checkers board game.",
+            "path": "appstorage/games/checkers/Minify/index.html",
+            "thumb": "appstorage/icons/checkers.png"
+        },
+        {
+            "id": "chess",
+            "name": "Chess",
+            "tag": "board",
+            "category": "🎲 Classic Tabletop",
+            "version": 1,
+            "description": "Classic Chess board game.",
+            "path": "appstorage/games/chess/Minify/index.html",
+            "thumb": "appstorage/icons/chess.png"
+        },
+        {
+            "id": "city-builder",
+            "name": "City Builder",
+            "tag": "puzzle",
+            "category": "✨ Learning Adventures",
+            "version": 1,
+            "description": "Classic City Builder.",
+            "path": "appstorage/games/city-builder/html5/minified/index.html",
+            "thumb": "appstorage/icons/city-builder.jpg"
+        },
+        {
+            "id": "connector",
+            "name": "Connector",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Connector.",
+            "path": "appstorage/games/connector/Minify/index.html",
+            "thumb": "appstorage/icons/connector.png"
+        },
+        {
+            "id": "drop-it",
+            "name": "Drop-It",
+            "tag": "puzzle",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Classic Drop-It.",
+            "path": "appstorage/games/drop-it/html5/minify/index.html",
+            "thumb": "appstorage/icons/drop-it.png"
+        },
+        {
+            "id": "find-pair",
+            "name": "Find Pair",
+            "tag": "memory",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Flip and match the pairs.",
+            "path": "appstorage/games/find-pair/html5/minify/index.html",
+            "thumb": "appstorage/icons/find-pair.png"
+        },
+        {
+            "id": "four-colors",
+            "name": "Four Colors",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Four Colors.",
+            "path": "appstorage/games/four-colors/html5/minified/index.html",
+            "thumb": "appstorage/icons/four-colors.png"
+        },
+        {
+            "id": "gold-miner",
+            "name": "Gold Miner",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Dig for treasures and score big.",
+            "path": "appstorage/games/gold-miner/html5/minify/index.html",
+            "thumb": "appstorage/icons/gold-miner.png"
+        },
+        {
+            "id": "jewel-miner",
+            "name": "Jewel Miner",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Jewel Miner.",
+            "path": "appstorage/games/jewel-miner/html5/minify/index.html",
+            "thumb": "appstorage/icons/jewel-miner.png"
+        },
+        {
+            "id": "jewel-block",
+            "name": "Jewel Block",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Jewel Block.",
+            "path": "appstorage/games/jewel-block/html5/minified/index.html",
+            "thumb": "appstorage/icons/jewel-block.png"
+        },
+        {
+            "id": "knife-shot",
+            "name": "Knife Shot",
+            "tag": "arcade",
+            "category": "🎯 Target & Aim",
+            "version": 1,
+            "description": "Arcade precision knife throws.",
+            "path": "appstorage/games/knife-shot/html5/minified/index.html",
+            "thumb": "appstorage/icons/knife-shot.png"
+        },
+        {
+            "id": "memory-match",
+            "name": "Memory Match",
+            "tag": "memory",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Flip and match the pairs.",
+            "path": "appstorage/games/memory-match/html5/minify/index.html",
+            "thumb": "appstorage/icons/memory-match.jpg"
+        },
+        {
+            "id": "onet",
+            "name": "Onet Fruit Classic",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Onet Fruit Classic.",
+            "path": "appstorage/games/onet/Minify/index.html",
+            "thumb": "appstorage/icons/onet.png"
+        },
+        {
+            "id": "onet-classic-cartoon",
+            "name": "Onet Classic",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Onet Classic.",
+            "path": "appstorage/games/onet-classic-cartoon/html5/minified/index.html",
+            "thumb": "appstorage/icons/onet-classic-cartoon.png"
+        },
+        {
+            "id": "quiz-game",
+            "name": "Quiz Game",
+            "tag": "quiz",
+            "category": "✨ Learning Adventures",
+            "version": 1,
+            "description": "Quick trivia rounds.",
+            "path": "appstorage/games/quiz-game/Default (ad)/index.html",
+            "thumb": "appstorage/icons/quiz-game.png"
+        },
+        {
+            "id": "reversi",
+            "name": "Reversi",
+            "tag": "board",
+            "category": "🎲 Classic Tabletop",
+            "version": 1,
+            "description": "Classic Reversi board game.",
+            "path": "appstorage/games/reversi/index.html",
+            "thumb": "appstorage/icons/reversi.png"
+        },
+        {
+            "id": "slider-puzzle",
+            "name": "Slider Puzzle",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Slider Puzzle.",
+            "path": "appstorage/games/slider-puzzle/Minify/index.html",
+            "thumb": "appstorage/icons/slider-puzzle.png"
+        },
+        {
+            "id": "sushi-chef",
+            "name": "Sushi Chef",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Fast arcade sushi action.",
+            "path": "appstorage/games/sushi-chef/html5/minify/index.html",
+            "thumb": "appstorage/icons/sushi-chef.png"
+        },
+        {
+            "id": "sweet-merge",
+            "name": "Sweet Merge",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Classic Sweet Merge.",
+            "path": "appstorage/games/sweet-merge/html5/min/index.html",
+            "thumb": "appstorage/icons/sweet-merge.jpg"
+        },
+        {
+            "id": "tennis",
+            "name": "Tennis Pong",
+            "tag": "sports",
+            "category": "🏎️ Fast & Fun",
+            "version": 1,
+            "description": "Fast-paced arcade tennis.",
+            "path": "appstorage/games/tennis/html5/minify/index.html",
+            "thumb": "appstorage/icons/tennis.png"
+        },
+        {
+            "id": "emoji-merge",
+            "name": "Emoji Merge",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Merge matching emojis into bigger combos.",
+            "path": "appstorage/games/emoji-merge/index.html",
+            "thumb": "appstorage/icons/emoji-merge.png"
+        },
+        {
+            "id": "fit-the-shape",
+            "name": "Fit the Shape",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Drop the pieces into the right outlines.",
+            "path": "appstorage/games/fit-the-shape/index.html",
+            "thumb": "appstorage/icons/fit-the-shape.png"
+        },
+        {
+            "id": "flappy-emoji",
+            "name": "Flappy Emoji",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Tap to keep the emoji flying.",
+            "path": "appstorage/games/flappy-emoji/index.html",
+            "thumb": "appstorage/icons/flappy-emoji.png"
+        },
+        {
+            "id": "ice-girl-rescue",
+            "name": "Ice Girl Rescue",
+            "tag": "adventure",
+            "category": "✨ Learning Adventures",
+            "version": 1,
+            "description": "Rescue Ice Girl in frosty puzzle rooms.",
+            "path": "appstorage/games/ice-girl-rescue/index.html",
+            "thumb": "appstorage/icons/ice-girl-rescue.png"
+        },
+        {
+            "id": "tri-puzzle",
+            "name": "Tri Puzzle",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Rotate and fit triangular pieces.",
+            "path": "appstorage/games/tri-puzzle/index.html",
+            "thumb": "appstorage/icons/tri-puzzle.png"
+        },
+        {
+            "id": "create-your-beach",
+            "name": "Create Your Beach",
+            "tag": "casual",
+            "category": "✨ Learning Adventures",
+            "version": 1,
+            "description": "Design a sunny beach with relaxing scenery.",
+            "path": "appstorage/games/create-your-beach/index.html",
+            "thumb": "appstorage/icons/create-your-beach.png"
+        },
+        {
+            "id": "coin-sort",
+            "name": "Coin Sort",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Stack coins into matching tubes.",
+            "path": "appstorage/games/coin-sort/index.html",
+            "thumb": "appstorage/icons/coin-sort.png"
+        },
+        {
+            "id": "cats-puzzle",
+            "name": "Cats Puzzle",
+            "tag": "puzzle",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Solve cozy cat puzzles.",
+            "path": "appstorage/games/cats-puzzle/index.html",
+            "thumb": "appstorage/icons/cats-puzzle.png"
+        },
+        {
+            "id": "falling-gadgets",
+            "name": "Falling Gadgets",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Falling Gadgets.",
+            "path": "appstorage/games/falling-gadgets/index.html",
+            "thumb": "appstorage/icons/falling-gadgets.png"
+        },
+        {
+            "id": "happy-helloween",
+            "name": "Happy Helloween",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Happy Helloween.",
+            "path": "appstorage/games/happy-helloween/index.html",
+            "thumb": "appstorage/icons/happy-helloween.png"
+        },
+        {
+            "id": "tic-tac-toe",
+            "name": "Tic Tac Toe",
+            "tag": "arcade",
+            "category": "🎲 Classic Tabletop",
+            "version": 1,
+            "description": "Play Tic Tac Toe.",
+            "path": "appstorage/games/tic-tac-toe/index.html",
+            "thumb": "appstorage/icons/tic-tac-toe.png"
+        },
+        {
+            "id": "extreme-way",
+            "name": "Extreme Way",
+            "tag": "arcade",
+            "category": "🏎️ Fast & Fun",
+            "version": 1,
+            "description": "Play Extreme Way.",
+            "path": "appstorage/games/extreme-way/index.html",
+            "thumb": "appstorage/icons/extreme-way.png"
+        },
+        {
+            "id": "destroy-boxes",
+            "name": "Destroy Boxes",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Destroy Boxes.",
+            "path": "appstorage/games/destroy-boxes/index.html",
+            "thumb": "appstorage/icons/destroy-boxes.png"
+        },
+        {
+            "id": "archer",
+            "name": "Archer",
+            "tag": "arcade",
+            "category": "🎯 Target & Aim",
+            "version": 1,
+            "description": "Play Archer.",
+            "path": "appstorage/games/archer/index.html",
+            "thumb": "appstorage/icons/archer.png"
+        },
+        {
+            "id": "put-bacon",
+            "name": "Put Bacon",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Put Bacon.",
+            "path": "appstorage/games/put-bacon/index.html",
+            "thumb": "appstorage/icons/put-bacon.png"
+        },
+        {
+            "id": "bright-ball",
+            "name": "Bright Ball",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Bright Ball.",
+            "path": "appstorage/games/bright-ball/index.html",
+            "thumb": "appstorage/icons/bright-ball.png"
+        },
+        {
+            "id": "books-tower",
+            "name": "Books Tower",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Books Tower.",
+            "path": "appstorage/games/books-tower/index.html",
+            "thumb": "appstorage/icons/books-tower.png"
+        },
+        {
+            "id": "crazy-chicks",
+            "name": "Crazy Chicks",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Crazy Chicks.",
+            "path": "appstorage/games/crazy-chicks/index.html",
+            "thumb": "appstorage/icons/crazy-chicks.png"
+        },
+        {
+            "id": "santa-runner",
+            "name": "Santa Runner",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Santa Runner.",
+            "path": "appstorage/games/santa-runner/index.html",
+            "thumb": "santa-runner/icon-256.png"
+        },
+        {
+            "id": "impossible-rise",
+            "name": "Impossible Rise",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Impossible Rise.",
+            "path": "appstorage/games/impossible-rise/index.html",
+            "thumb": "appstorage/icons/impossible-rise.png"
+        },
+        {
+            "id": "knives",
+            "name": "Knives",
+            "tag": "arcade",
+            "category": "🎯 Target & Aim",
+            "version": 1,
+            "description": "Play Knives.",
+            "path": "appstorage/games/knives/index.html",
+            "thumb": "appstorage/icons/knives.png"
+        },
+        {
+            "id": "word-cargo",
+            "name": "Word Cargo",
+            "tag": "arcade",
+            "category": "✨ Learning Adventures",
+            "version": 1,
+            "description": "Play Word Cargo.",
+            "path": "appstorage/games/word-cargo/index.html",
+            "thumb": "appstorage/icons/word-cargo.png"
+        },
+        {
+            "id": "falling-fruits",
+            "name": "Falling Fruits",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Falling Fruits.",
+            "path": "appstorage/games/falling-fruits/index.html",
+            "thumb": "appstorage/icons/falling-fruits.png"
+        },
+        {
+            "id": "color-block",
+            "name": "Color Block",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Color Block.",
+            "path": "appstorage/games/color-block/index.html",
+            "thumb": "appstorage/icons/color-block.png"
+        },
+        {
+            "id": "magnets",
+            "name": "Magnets",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Magnets.",
+            "path": "appstorage/games/magnets/index.html",
+            "thumb": "appstorage/icons/magnets.png"
+        },
+        {
+            "id": "tightness",
+            "name": "Tightness",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Tightness.",
+            "path": "appstorage/games/tightness/index.html",
+            "thumb": "appstorage/icons/tightness.png"
+        },
+        {
+            "id": "catch-the-number",
+            "name": "Catch The Number",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Catch The Number.",
+            "path": "appstorage/games/catch-the-number/index.html",
+            "thumb": "appstorage/icons/catch-the-number.png"
+        },
+        {
+            "id": "draw-the-path",
+            "name": "Draw The Path",
+            "tag": "arcade",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Play Draw The Path.",
+            "path": "appstorage/games/draw-the-path/index.html",
+            "thumb": "appstorage/icons/draw-the-path.png"
+        },
+        {
+            "id": "pull-the-thread",
+            "name": "Pull The Thread",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Pull The Thread.",
+            "path": "appstorage/games/pull-the-thread/index.html",
+            "thumb": "appstorage/icons/pull-the-thread.png"
+        },
+        {
+            "id": "garbage",
+            "name": "Garbage",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Garbage.",
+            "path": "appstorage/games/garbage/index.html",
+            "thumb": "appstorage/icons/garbage.png"
+        },
+        {
+            "id": "tetrablocks",
+            "name": "Tetrablocks",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Tetrablocks.",
+            "path": "appstorage/games/tetrablocks/index.html",
+            "thumb": "appstorage/icons/tetrablocks.png"
+        },
+        {
+            "id": "proton-vs-electron",
+            "name": "Proton Vs Electron",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Proton Vs Electron.",
+            "path": "appstorage/games/proton-vs-electron/index.html",
+            "thumb": "appstorage/icons/proton-vs-electron.png"
+        },
+        {
+            "id": "changer-jam",
+            "name": "Changer Jam",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Changer Jam.",
+            "path": "appstorage/games/changer-jam/index.html",
+            "thumb": "appstorage/icons/changer-jam.png"
+        },
+        {
+            "id": "dot-and-lines",
+            "name": "Dot And Lines",
+            "tag": "arcade",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Play Dot And Lines.",
+            "path": "appstorage/games/dot-and-lines/index.html",
+            "thumb": "appstorage/icons/dot-and-lines.png"
+        },
+        {
+            "id": "network",
+            "name": "Network",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Network.",
+            "path": "appstorage/games/network/index.html",
+            "thumb": "appstorage/icons/network.png"
+        },
+        {
+            "id": "goalkeeper-challenge",
+            "name": "Goalkeeper Challenge",
+            "tag": "arcade",
+            "category": "🏎️ Fast & Fun",
+            "version": 1,
+            "description": "Play Goalkeeper Challenge.",
+            "path": "appstorage/games/goalkeeper-challenge/index.html",
+            "thumb": "appstorage/icons/goalkeeper-challenge.png"
+        },
+        {
+            "id": "triangle-way",
+            "name": "Triangle Way",
+            "tag": "arcade",
+            "category": "🏎️ Fast & Fun",
+            "version": 1,
+            "description": "Play Triangle Way.",
+            "path": "appstorage/games/triangle-way/index.html",
+            "thumb": "appstorage/icons/triangle-way.png"
+        },
+        {
+            "id": "halloween-tetris",
+            "name": "Halloween Tetris",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Halloween Tetris.",
+            "path": "appstorage/games/halloween-tetris/index.html",
+            "thumb": "appstorage/icons/halloween-tetris.png"
+        },
+        {
+            "id": "red-jumper",
+            "name": "Red Jumper",
+            "tag": "arcade",
+            "category": "🏎️ Fast & Fun",
+            "version": 1,
+            "description": "Play Red Jumper.",
+            "path": "appstorage/games/red-jumper/index.html",
+            "thumb": "appstorage/icons/red-jumper.png"
+        },
+        {
+            "id": "hole",
+            "name": "Hole",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Hole.",
+            "path": "appstorage/games/hole/index.html",
+            "thumb": "appstorage/icons/hole.png"
+        },
+        {
+            "id": "dots-puzzle",
+            "name": "Dots Puzzle",
+            "tag": "arcade",
+            "category": "🧩 Brain Puzzles",
+            "version": 1,
+            "description": "Play Dots Puzzle.",
+            "path": "appstorage/games/dots-puzzle/index.html",
+            "thumb": "appstorage/icons/dots-puzzle.png"
+        },
+        {
+            "id": "tap-tap-challenge",
+            "name": "Tap Tap Challenge",
+            "tag": "arcade",
+            "category": "🕹️ Super Arcade",
+            "version": 1,
+            "description": "Play Tap Tap Challenge.",
+            "path": "appstorage/games/tap-tap-challenge/index.html",
+            "thumb": "appstorage/icons/tap-tap-challenge.png"
+        },
+        {
+            "id": "trick-shot",
+            "name": "Trick Shot",
+            "tag": "arcade",
+            "category": "🎯 Target & Aim",
+            "version": 1,
+            "description": "Play Trick Shot.",
+            "path": "appstorage/games/trick-shot/index.html",
+            "thumb": "appstorage/icons/trick-shot.png"
+        },
+        {
+            "id": "box-runner",
+            "name": "Box Runner",
+            "tag": "arcade",
+            "category": "🏎️ Fast & Fun",
+            "version": 1,
+            "description": "Play Box Runner.",
+            "path": "appstorage/games/box-runner/index.html",
+            "thumb": "appstorage/icons/box-runner.png"
+        }
+    ]
+}

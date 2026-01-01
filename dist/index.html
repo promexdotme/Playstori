@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/icons/icon-192.png" />
+  <title>Playstori | On-Demand Kids Arcade</title>
+  <script type="module" crossorigin src="/assets/index-DAFvW5B9.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-fFPFRpt1.css">
+<link rel="manifest" href="/manifest.webmanifest"></head>
+
+<body>
+  <div id="app">
+    <!-- Home View -->
+    <div id="home-view">
+      <header class="topbar">
+        <div class="brand">
+          <img class="brand-logo" src="/icons/logo.png" alt="Playstori logo" />
+        </div>
+        <div class="search-shell" id="search-shell">
+          <input id="search-input" type="search" placeholder="Search games" aria-label="Search games" />
+        </div>
+      </header>
+
+      <div id="category-ribbon" class="category-ribbon">
+        <!-- JS populated tag pills -->
+      </div>
+
+      <main class="layout">
+        <section>
+          <div id="games-grid" class="games-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Storage Manager View -->
+    <div id="manager-view" class="hidden">
+      <header class="topbar">
+        <div class="brand">
+          <h2 class="section-title">📦 Storage Manager</h2>
+        </div>
+      </header>
+
+      <div id="storage-stats" class="storage-stats">
+        <!-- JS populated stats -->
+      </div>
+
+      <div class="manager-actions-global">
+        <button id="download-all" class="solid-button">Download All</button>
+        <button id="delete-all" class="ghost-button">Delete All</button>
+      </div>
+
+      <div id="manager-list" class="manager-list">
+        <!-- JS populated game list -->
+      </div>
+    </div>
+
+    <!-- Fixed Footer -->
+    <nav class="fixed-footer">
+      <button id="nav-home" class="nav-item active">
+        <span class="nav-icon">🏠</span>
+        <span class="nav-label">Home</span>
+      </button>
+      <button id="nav-manager" class="nav-item">
+        <span class="nav-icon">📦</span>
+        <span class="nav-label">Manager</span>
+      </button>
+    </nav>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+</body>
+
+</html>
