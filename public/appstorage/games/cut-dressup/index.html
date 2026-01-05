@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>K-Pop Hunter Fashion</title>
+   <script type="text/javascript" src="vendor/phaser.min.js"></script>
+    <script type="text/javascript" src="vendor/animation.js"></script>
+    <script type="text/javascript">
+        var soundcheck = false
+        var soundstart = 0
+        var soundcheck1 = true
+        window["GD_OPTIONS"] = {
+            "gameId": "34b3dd35505444f282a9e35a7ceb4a93",
+            "onEvent": function(event) {
+                switch (event.name) {
+                    case "SDK_GAME_START":
+                        if (soundcheck) {
+                            soundstart = 0
+                            game.scene.scenes[pageNo].scene.resume()
+                            soundstart = 0
+                            if (!isMuted) {
+                                music.resume()
+                                soundmute.setFrame(0)
+                            } else {
+                                music.pause()
+                                soundmute.setFrame(1)
+                            }
+                        }
+                        break;
+                    case "SDK_GAME_PAUSE":
+                        if (soundcheck) {
+                            soundstart = 1
+                            game.scene.scenes[pageNo].scene.pause()
+                            soundstart = 1
+                            if (!isMuted) {
+                                music.pause()
+                                soundmute.setFrame(1)
+                            }
+                        }
+                        break;
+                    case "SDK_REWARDED_WATCH_COMPLETE":
+                        console.log('completed')
+                        if (pageNo == 4) adcheck1 = 1;
+                        if (pageNo == 5) adcheck2 = 1;
+                        if (pageNo == 6) adcheck3 = 1;
+                        break;
+                }
+            },
+        };
+        // Offline GameDistribution SDK Stub
+        window.gdsdk = {
+            showAd: function() { 
+                console.log("Offline Mode: showAd suppressed"); 
+                if (window.GD_OPTIONS && window.GD_OPTIONS.onEvent) {
+                    window.GD_OPTIONS.onEvent({ name: "SDK_GAME_START" });
+                }
+            },
+            preloadAd: function() { return Promise.resolve(); }
+        };
+        // Auto-start SDK events
+        setTimeout(() => {
+            if (window.GD_OPTIONS && window.GD_OPTIONS.onEvent) {
+                window.GD_OPTIONS.onEvent({ name: "SDK_GAME_START" });
+            }
+        }, 500);
+
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+
+            background-size: cover;
+            background-size: 100%;
+            background-position: center;
+        }
+
+        html,
+        body {
+            margin: 0;
+            overflow-y: hidden;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id='theGame'>
+        <script src="game.js"></script>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+

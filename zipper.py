@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Configuration
-SOURCE_DIR = 'public/games'  # Where your game folders currently live
-OUTPUT_DIR = 'appstorage_zips' # Where to save the individual .zip files
+SOURCE_DIR = 'public/appstorage/games'  # Where your game folders currently live
+OUTPUT_DIR = 'public/appstorage/games' # Where to save the individual .zip files
 
 # List of folders to skip based on your audit/empty notes
 SKIP_FOLDERS = [

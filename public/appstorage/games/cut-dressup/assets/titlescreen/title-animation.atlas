@@ -1,0 +1,139 @@
+
+title-animation.png
+size: 380,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blue cir
+  rotate: false
+  xy: 265, 709
+  size: 112, 112
+  orig: 116, 116
+  offset: 2, 2
+  index: -1
+Demon
+  rotate: false
+  xy: 2, 269
+  size: 257, 84
+  orig: 259, 86
+  offset: 1, 1
+  index: -1
+Demon back
+  rotate: false
+  xy: 2, 742
+  size: 261, 88
+  orig: 263, 90
+  offset: 1, 1
+  index: -1
+Fashion
+  rotate: false
+  xy: 2, 128
+  size: 221, 62
+  orig: 223, 64
+  offset: 1, 1
+  index: -1
+Fashion back
+  rotate: false
+  xy: 2, 192
+  size: 231, 75
+  orig: 233, 77
+  offset: 1, 1
+  index: -1
+Hunter
+  rotate: false
+  xy: 2, 832
+  size: 267, 87
+  orig: 269, 89
+  offset: 1, 1
+  index: -1
+Hunter back
+  rotate: false
+  xy: 2, 921
+  size: 271, 98
+  orig: 273, 102
+  offset: 1, 1
+  index: -1
+K pop
+  rotate: false
+  xy: 156, 44
+  size: 210, 77
+  orig: 212, 79
+  offset: 1, 1
+  index: -1
+K pop back
+  rotate: true
+  xy: 261, 123
+  size: 215, 83
+  orig: 217, 90
+  offset: 1, 6
+  index: -1
+Knife
+  rotate: false
+  xy: 2, 2
+  size: 80, 119
+  orig: 82, 122
+  offset: 1, 2
+  index: -1
+Mic
+  rotate: false
+  xy: 84, 38
+  size: 70, 83
+  orig: 72, 85
+  offset: 1, 1
+  index: -1
+Moving cirle
+  rotate: false
+  xy: 264, 530
+  size: 112, 112
+  orig: 120, 120
+  offset: 4, 4
+  index: -1
+Right wings
+  rotate: true
+  xy: 264, 644
+  size: 63, 114
+  orig: 65, 116
+  offset: 1, 1
+  index: -1
+Shadow
+  rotate: true
+  xy: 2, 355
+  size: 385, 260
+  orig: 390, 264
+  offset: 2, 0
+  index: -1
+Speaker Right
+  rotate: true
+  xy: 271, 823
+  size: 85, 107
+  orig: 87, 109
+  offset: 1, 1
+  index: -1
+Speaker left
+  rotate: false
+  xy: 275, 910
+  size: 96, 109
+  orig: 98, 111
+  offset: 1, 1
+  index: -1
+empty
+  rotate: false
+  xy: 271, 918
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+left wings
+  rotate: true
+  xy: 264, 340
+  size: 74, 105
+  orig: 76, 108
+  offset: 1, 1
+  index: -1
+purpule cir
+  rotate: false
+  xy: 264, 416
+  size: 112, 112
+  orig: 116, 116
+  offset: 2, 2
+  index: -1

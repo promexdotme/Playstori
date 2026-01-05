@@ -9,18 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@capacitor/android": "^6.1.0",
-    "@capacitor/core": "^6.1.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
     "@capacitor/filesystem": "^8.0.0",
-    "@capacitor/http": "^0.0.2",
-    "@capacitor/ios": "^6.1.0",
-    "@capacitor/preferences": "^6.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "@capacitor/preferences": "^8.0.0",
     "jszip": "^3.10.1",
     "vite": "^7.3.0",
     "vite-plugin-pwa": "^1.2.0"
   },
   "devDependencies": {
     "@capacitor/assets": "^3.0.5",
-    "@capacitor/cli": "^6.1.0"
+    "@capacitor/cli": "^8.0.0"
   }
 }

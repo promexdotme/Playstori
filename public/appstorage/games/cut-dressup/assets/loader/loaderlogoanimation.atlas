@@ -1,0 +1,209 @@
+
+loaderlogoanimation.png
+size: 332,1019
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blue light
+  rotate: false
+  xy: 2, 385
+  size: 162, 276
+  orig: 173, 283
+  offset: 7, 3
+  index: -1
+C
+  rotate: false
+  xy: 230, 747
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+D
+  rotate: false
+  xy: 102, 31
+  size: 61, 74
+  orig: 65, 78
+  offset: 2, 2
+  index: -1
+Dress
+  rotate: true
+  xy: 230, 817
+  size: 97, 78
+  orig: 97, 78
+  offset: 0, 0
+  index: -1
+E1
+  rotate: false
+  xy: 283, 28
+  size: 47, 51
+  orig: 51, 55
+  offset: 2, 2
+  index: -1
+E2
+  rotate: false
+  xy: 291, 761
+  size: 39, 54
+  orig: 43, 58
+  offset: 2, 2
+  index: -1
+Earing
+  rotate: false
+  xy: 314, 1009
+  size: 8, 8
+  orig: 12, 12
+  offset: 2, 2
+  index: -1
+Eye ball
+  rotate: false
+  xy: 286, 89
+  size: 44, 21
+  orig: 48, 25
+  offset: 2, 2
+  index: -1
+Eye lash
+  rotate: true
+  xy: 281, 210
+  size: 65, 34
+  orig: 65, 34
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: true
+  xy: 310, 853
+  size: 61, 20
+  orig: 65, 24
+  offset: 2, 2
+  index: -1
+Eyeclose
+  rotate: false
+  xy: 102, 2
+  size: 60, 27
+  orig: 60, 27
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 230, 916
+  size: 82, 101
+  orig: 86, 105
+  offset: 2, 2
+  index: -1
+Front hair
+  rotate: false
+  xy: 166, 142
+  size: 113, 241
+  orig: 113, 241
+  offset: 0, 0
+  index: -1
+Glitter
+  rotate: false
+  xy: 281, 277
+  size: 49, 47
+  orig: 54, 55
+  offset: 2, 4
+  index: -1
+Hair Back
+  rotate: false
+  xy: 2, 3
+  size: 98, 102
+  orig: 102, 107
+  offset: 2, 3
+  index: -1
+Lips
+  rotate: true
+  xy: 310, 825
+  size: 26, 19
+  orig: 30, 26
+  offset: 2, 2
+  index: -1
+Neck
+  rotate: true
+  xy: 286, 112
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+P
+  rotate: false
+  xy: 281, 326
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+Pink light
+  rotate: false
+  xy: 2, 107
+  size: 162, 276
+  orig: 173, 283
+  offset: 7, 3
+  index: -1
+R
+  rotate: false
+  xy: 231, 81
+  size: 53, 59
+  orig: 53, 60
+  offset: 0, 1
+  index: -1
+S1
+  rotate: false
+  xy: 281, 151
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+S2
+  rotate: false
+  xy: 289, 692
+  size: 38, 53
+  orig: 42, 57
+  offset: 2, 2
+  index: -1
+T
+  rotate: true
+  xy: 166, 83
+  size: 57, 63
+  orig: 61, 67
+  offset: 2, 2
+  index: -1
+U1
+  rotate: true
+  xy: 165, 25
+  size: 56, 61
+  orig: 56, 61
+  offset: 0, 0
+  index: -1
+U1 shadow
+  rotate: false
+  xy: 230, 680
+  size: 57, 65
+  orig: 59, 65
+  offset: 1, 0
+  index: -1
+U2
+  rotate: false
+  xy: 228, 26
+  size: 53, 53
+  orig: 57, 57
+  offset: 2, 2
+  index: -1
+White pad
+  rotate: true
+  xy: 2, 663
+  size: 354, 226
+  orig: 356, 266
+  offset: 2, 38
+  index: -1
+Yellow light
+  rotate: false
+  xy: 166, 385
+  size: 162, 276
+  orig: 173, 283
+  offset: 7, 3
+  index: -1
+eye white
+  rotate: false
+  xy: 164, 2
+  size: 51, 21
+  orig: 55, 25
+  offset: 2, 2
+  index: -1

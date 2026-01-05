@@ -1,0 +1,20 @@
+
+trans.png
+size: 1352,610
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Title
+  rotate: true
+  xy: 1081, 218
+  size: 390, 269
+  orig: 394, 272
+  offset: 2, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 2
+  size: 1077, 606
+  orig: 1079, 608
+  offset: 1, 1
+  index: -1

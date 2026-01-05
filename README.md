@@ -1,94 +1,263 @@
-# Playstori
+# Playstori 2026 Documentation
 **Where Stories Come to Play.**
 
-Open-source, offline-capable kids game launcher built with Vite + Capacitor. Safe, ad-free, and easy to extend by dropping HTML5 games into `public/games/` and editing a single JSON file.
+> **Note**: This is the **single source of truth** for Playstori development. All other MD files have been deprecated.
 
 ---
 
-## Quickstart (local)
-1) Install deps: `npm install`
-2) Dev server: `npm run dev` (open the printed URL)
-3) Build: `npm run build`
-4) Preview build: `npm run preview`
+## Project Overview
 
-## Project structure
-- `src/` — launcher UI/logic (built by Vite)
-- `public/` — static content
-  - `public/games.json` — game database (fetched at runtime)
-  - `public/games/` — each game lives in its own folder (standard: `games/<id>/index.html`, thumb `games/<id>/<id>-logo.*`)
-  - `public/manifest.json`, `public/icons/` — PWA assets and logo
+Playstori is an open-source, offline-capable kids game launcher built with **Vite + Capacitor**. Safe, ad-free, and easy to extend.
 
-## How to add or edit games
-1) Place the game folder in `public/games/<your-game-id>/` with `index.html` and a `thumb` image. Keep asset paths relative (no external CDNs) so it works offline.
-2) Edit `public/games.json` and add/update the entry:
+- **Web**: PWA at [playstori.org](https://playstori.org)
+- **Mobile**: Android/iOS via Capacitor
+- **Games**: HTML5 games stored locally in `public/appstorage/`
+
+---
+
+## Directory Structure
+
+```
+playstori/
+├── src/                    # Launcher UI/logic (Vite builds this)
+├── public/
+│   ├── appstorage/
+│   │   ├── games/          # Game folders (each has index.html)
+│   │   ├── icons/          # Game icons (256x256 PNG)
+│   │   └── games.json      # Game manifest
+│   ├── manifest.json       # PWA manifest
+│   └── icons/              # Launcher icons & logo
+├── dist/                   # Built output (= public_html)
+├── StagingGames/           # Staging area for new games
+└── add_game.py             # Automation script
+```
+
+> **Important**: The `dist/` folder IS the `public_html` for playstori.org
+
+---
+
+## Adding a New Game
+
+### Option 1: Automated (Recommended)
+
+```bash
+python add_game.py <game-id> --staging-path StagingGames/<game-folder>
+```
+
+The script will:
+1. Copy game to `public/appstorage/games/<game-id>/`
+2. Create ZIP at `public/appstorage/games/<game-id>.zip`
+3. Copy icon to `public/appstorage/icons/<game-id>.png`
+4. Add entry to `public/appstorage/games.json`
+
+### Option 2: Manual Steps
+
+#### Step 1: Copy Game Assets
+```
+public/appstorage/games/<game-id>/
+├── index.html          # Main entry (may be in subdirectory)
+└── [game files...]
+```
+
+#### Step 2: Create ZIP for Mobile
+```bash
+# Create ZIP of the game folder
+cd public/appstorage/games
+zip -r <game-id>.zip <game-id>/
+```
+Save to: `public/appstorage/games/<game-id>.zip`
+
+#### Step 3: Add Game Icon
+- Extract or create a **256x256 PNG** icon
+- Save to: `public/appstorage/icons/<game-id>.png`
+
+#### Step 4: Update Manifest
+Add entry to `public/appstorage/games.json`:
+
 ```json
 {
-  "id": "my-new-game",
-  "name": "Super Logic",
-  "tag": "logic",
-  "path": "games/my-new-game/index.html",
-  "thumb": "games/my-new-game/my-new-game-logo.png",
-  "description": "Calm logic puzzle."
+    "id": "<game-id>",
+    "name": "Game Name",
+    "tag": "arcade",
+    "category": "🕹️ Super Arcade",
+    "version": 1,
+    "description": "Short description.",
+    "path": "appstorage/games/<game-id>/index.html",
+    "thumb": "appstorage/icons/<game-id>.png"
 }
 ```
-3) If the dev server is running, refresh to see it. For production web/native builds, rerun `npm run build` before packaging or deploy.
 
-To award a star from inside the game (iframe mode) on level complete:
-```js
-window.parent?.postMessage({ type: 'ADD_STAR', gameId: '<your-game-id>' }, '*');
+**Path Examples**:
+- Simple: `appstorage/games/tennis/index.html`
+- Nested: `appstorage/games/tennis/html5/minify/index.html`
+
+#### Step 5: Build & Deploy
+```bash
+npm run build
 ```
-If you launch games directly (no iframe), increment the shared counter from the game with:
+Upload `dist/` contents to server.
+
+---
+
+## Available Categories
+
+| Emoji | Category |
+|-------|----------|
+| 🧩 | Brain Puzzles |
+| 🕹️ | Super Arcade |
+| 🏎️ | Fast & Fun |
+| 🎲 | Classic Tabletop |
+| ✨ | Learning Adventures |
+| 🎯 | Target & Aim |
+
+---
+
+## Asset Checklist
+
+When adding a game, ensure these files exist:
+
+- [ ] `public/appstorage/games/<game-id>/index.html` (or subdirectory)
+- [ ] `public/appstorage/games/<game-id>.zip`
+- [ ] `public/appstorage/icons/<game-id>.png`
+- [ ] Entry in `public/appstorage/games.json`
+
+---
+
+## Platform Behavior
+
+| Platform | Icons | Games |
+|----------|-------|-------|
+| **Web** | Loads from `/appstorage/icons/` | Streams from `/appstorage/games/` |
+| **Android/iOS** | Cached locally | Downloads ZIP, extracts to local storage |
+
+---
+
+## Build Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install dependencies |
+| `npm run dev` | Start dev server |
+| `npm run build` | Production build → `dist/` |
+| `npm run preview` | Preview production build |
+| `npx cap sync` | Sync to native apps |
+| `npx cap open android` | Open in Android Studio |
+| `npx cap open ios` | Open in Xcode (macOS) |
+
+---
+
+## Offline Requirements
+
+All games must follow these rules for offline support:
+
+1. **Relative paths only** - Use `./assets/...` not absolute URLs
+2. **No CDN dependencies** - All assets must be local
+3. **No external scripts** - No analytics, ads, or tracking
+4. **Disable service workers** - Remove game-specific SW to prevent conflicts
+5. **No navigation** - Avoid `window.open` or top-level redirects
+
+---
+
+## Storage Rules
+
+- Prefix localStorage/IndexedDB keys: `playstori_<game-id>_...`
+- Save progress on pause/exit
+- Audio should pause on `visibilitychange`
+
+---
+
+## Importing from External Sources
+
+### From Gamonetize (html5.gamemonetize.co)
+1. Copy only the game folder, not ad/analytics folders
+2. Remove external font imports
+3. Verify no external network calls
+4. If Unity `.data.unityweb` is a stub, download the real file
+5. Add ad-blocker stub if needed for Unity builds
+
+### From Paintgame.me (ig3)
+1. Use the `preview/v1` folder as source
+2. Remove "Live preview on codecanyon.net" line
+3. Disable service worker (`register-sw.js`)
+4. Replace stub assets with real files from URL
+5. Fix audio decode errors by re-downloading `.webm` files
+
+---
+
+## Web Deployment
+
+1. `npm run build`
+2. Deploy contents of `dist/` to static hosting
+3. The `dist/` folder becomes your `public_html`
+
+---
+
+## Native App Deployment
+
+1. `npm run build`
+2. `npx cap sync`
+3. **Android**: `npx cap open android` → Build in Android Studio
+4. **iOS**: `npx cap open ios` → Build in Xcode (macOS only)
+
+---
+
+## Star Economy
+
+Games can award stars to players:
+
+**For iframe mode:**
+```js
+window.parent?.postMessage({ type: 'ADD_STAR', gameId: '<id>' }, '*');
+```
+
+**For direct navigation:**
 ```js
 const key = 'playstori-star-delta';
 const next = (Number(localStorage.getItem(key) || '0') + 1).toString();
 localStorage.setItem(key, next);
 ```
-The launcher will sync that value on next load.
 
-## Build and preview
-- Dev: `npm run dev`
-- Prod build: `npm run build`
-- Preview prod build: `npm run preview`
+---
 
-## Ship to the web (PWA)
-1) `npm run build`
-2) Deploy the `dist/` folder to static hosting (Netlify/Vercel/S3/Cloudflare Pages, etc.).
-3) When code or content changes, rebuild and redeploy `dist/`.
+## Special Game Handling
 
-## Ship to native (Android/iOS)
-1) `npm run build`
-2) `npx cap sync` (copies `dist/` into the native shells)
-3) Android: `npx cap open android`, then build/run or generate a signed bundle in Android Studio.
-4) iOS (macOS): `npx cap open ios`, set signing in Xcode, then build/run or Archive for the App Store.
-Repeat steps 1–2 after any code/content change you want packaged into the apps.
+### GameDistribution & GameMonetize (Ripped Games)
+Games from these platforms often come as complex multi-domain rips. Follow these rules:
 
-## Notes
-- The app fetches `public/games.json` at runtime; no imports in code, so you can edit it without touching JS.
-- Service worker (via vite-plugin-pwa) precaches the app shell; “Download all” in settings caches game assets into `playstori-games`.
-- Keep `node_modules/` out of git; commit source + `public/` + lockfile.
+1.  **Locate the Core**: Look for the `index.html` nested deep (e.g., `StagingGames/GameName/html5.gamedistribution.com/.../index.html`).
+2.  **Stub the SDK**: Most will fail to load offline because they try to fetch `main.min.js`. Replace the external script with a local stub:
+    ```javascript
+    // Offline SDK Stub
+    window.gdsdk = {
+        showAd: function() { 
+            console.log("Offline Mode: showAd suppressed"); 
+            // Auto-trigger game start event
+            if (window.GD_OPTIONS && window.GD_OPTIONS.onEvent) {
+                window.GD_OPTIONS.onEvent({ name: "SDK_GAME_START" });
+            }
+        },
+        preloadAd: function() { return Promise.resolve(); }
+    };
+    ```
+3.  **Clean up GDPR**: Remove GDPR/Tracking events from the `GD_OPTIONS` object to simplify.
+4.  **Fix Rogue Redirects**: If the game redirects to `blocked.html` on startup, search for the SDK URL in `game.js` and neutralize it. Rogue redirects are often triggered by the SDK injection function. 
+    > [!TIP]
+    > For large `game.js` files (>4MB), use a script to replace `https://html5.api.gamedistribution.com/main.min.js` with `https://localhost/null.js`. Also ensure `window.GD_OPTIONS = {` is changed to `window.GD_OPTIONS = window.GD_OPTIONS || {` to prevent the engine from overwriting your local stub.
+5.  **Relative Assets**: Ensure all assets (`game.js`, `vendor/`, `assets/`) are in the same directory and referenced relatively.
 
-## Contributing
-PRs welcome: new games, UX polish, accessibility fixes, or content curation.
+### Paintgame.me (ig3)
+1. **Asset Paths**: Fix `.js` files that use hardcoded site URLs for assets.
+2. **Service Worker**: Delete `sw.js` and remove the registration code from `index.html`.
+3. **Box2D Fix**: For games using `box2d.wasm`, ensure the MIME type is correctly handled or provided locally.
 
-## ⚖️ License & Commercial Use
+---
 
-**Playstori is free for everyone to use, learn from, and enjoy.**
+## License
 
-This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+**CC BY-NC 4.0** - Free for personal and non-commercial use.
 
-✅ **You are free to:**
-*   Download and play the games.
-*   Fork the code and modify it for personal use.
-*   Use it in a classroom or non-profit setting.
+Commercial licensing available for schools, companies, and publishers.
 
-❌ **You may NOT:**
-*   Sell this app on the App Store or Google Play.
-*   Wrap this code with ads and distribute it.
-*   Use this code as part of a paid commercial product.
+---
 
-### 💼 Commercial Inquiries & Whitelabeling
-Do you represent a school district, a company, or a publisher? 
-We offer commercial licenses for use cases that fall outside the Non-Commercial license.
-
-*   **Sponsors:** Top-tier GitHub Sponsors may receive a temporary commercial license grant.
-*   **Partners:** Contact us to discuss whitelabeling or commercial usage rights as.
+*Last updated: January 2026*

@@ -1,0 +1,790 @@
+
+rumi.png
+size: 1571,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back Acc-02
+  rotate: true
+  xy: 906, 366
+  size: 204, 78
+  orig: 206, 80
+  offset: 1, 1
+  index: -1
+Back Acc-03
+  rotate: true
+  xy: 1298, 425
+  size: 148, 96
+  orig: 150, 98
+  offset: 1, 1
+  index: -1
+Back Hair For Acc-00
+  rotate: false
+  xy: 312, 85
+  size: 136, 471
+  orig: 136, 472
+  offset: 0, 1
+  index: -1
+Back Hair For Acc-07
+  rotate: true
+  xy: 986, 305
+  size: 62, 187
+  orig: 63, 187
+  offset: 1, 0
+  index: -1
+Back Hair-00
+  rotate: false
+  xy: 625, 98
+  size: 136, 470
+  orig: 136, 472
+  offset: 0, 2
+  index: -1
+Back Hair-01
+  rotate: true
+  xy: 1480, 669
+  size: 88, 66
+  orig: 88, 74
+  offset: 0, 8
+  index: -1
+Back Hair-03
+  rotate: false
+  xy: 906, 316
+  size: 78, 48
+  orig: 79, 48
+  offset: 1, 0
+  index: -1
+Back Hair-05
+  rotate: true
+  xy: 1548, 701
+  size: 65, 21
+  orig: 67, 23
+  offset: 1, 1
+  index: -1
+Back Hair-06
+  rotate: true
+  xy: 1153, 75
+  size: 66, 46
+  orig: 68, 48
+  offset: 1, 1
+  index: -1
+Back Hair-07
+  rotate: true
+  xy: 965, 80
+  size: 61, 186
+  orig: 63, 187
+  offset: 2, 1
+  index: -1
+Back Hair-08
+  rotate: true
+  xy: 1492, 318
+  size: 72, 76
+  orig: 72, 77
+  offset: 0, 0
+  index: -1
+Body Bottom
+  rotate: false
+  xy: 1190, 341
+  size: 106, 62
+  orig: 108, 64
+  offset: 1, 1
+  index: -1
+Body Top
+  rotate: true
+  xy: 989, 558
+  size: 97, 189
+  orig: 99, 191
+  offset: 1, 1
+  index: -1
+Dress-00
+  rotate: true
+  xy: 334, 570
+  size: 159, 462
+  orig: 159, 463
+  offset: 0, 0
+  index: -1
+Dress-01
+  rotate: true
+  xy: 334, 882
+  size: 148, 480
+  orig: 148, 480
+  offset: 0, 0
+  index: -1
+Dress-02
+  rotate: true
+  xy: 816, 885
+  size: 145, 479
+  orig: 146, 479
+  offset: 1, 0
+  index: -1
+Dress-03
+  rotate: false
+  xy: 2, 549
+  size: 170, 481
+  orig: 170, 483
+  offset: 0, 1
+  index: -1
+Dress-04
+  rotate: false
+  xy: 165, 75
+  size: 145, 472
+  orig: 148, 472
+  offset: 0, 0
+  index: -1
+Dress-05
+  rotate: false
+  xy: 174, 558
+  size: 158, 472
+  orig: 158, 472
+  offset: 0, 0
+  index: -1
+Dress-06
+  rotate: false
+  xy: 2, 73
+  size: 161, 474
+  orig: 161, 474
+  offset: 0, 0
+  index: -1
+Dress-07
+  rotate: false
+  xy: 450, 133
+  size: 173, 435
+  orig: 173, 436
+  offset: 0, 0
+  index: -1
+Dress-08
+  rotate: true
+  xy: 334, 731
+  size: 149, 478
+  orig: 149, 478
+  offset: 0, 0
+  index: -1
+Earrings-01
+  rotate: false
+  xy: 1390, 85
+  size: 67, 14
+  orig: 67, 15
+  offset: 0, 1
+  index: -1
+Earrings-02
+  rotate: false
+  xy: 1181, 143
+  size: 65, 26
+  orig: 70, 28
+  offset: 3, 0
+  index: -1
+Earrings-03
+  rotate: true
+  xy: 1357, 91
+  size: 67, 31
+  orig: 72, 34
+  offset: 3, 2
+  index: -1
+Earrings-04
+  rotate: false
+  xy: 1373, 57
+  size: 62, 26
+  orig: 62, 26
+  offset: 0, 0
+  index: -1
+Earrings-05
+  rotate: true
+  xy: 1333, 99
+  size: 67, 22
+  orig: 72, 23
+  offset: 2, 1
+  index: -1
+Earrings-06
+  rotate: false
+  xy: 1373, 28
+  size: 58, 27
+  orig: 62, 29
+  offset: 2, 0
+  index: -1
+Earrings-07
+  rotate: true
+  xy: 1542, 535
+  size: 64, 27
+  orig: 64, 29
+  offset: 0, 0
+  index: -1
+Earrings-08
+  rotate: true
+  xy: 1539, 449
+  size: 67, 30
+  orig: 67, 33
+  offset: 0, 0
+  index: -1
+Eye Close
+  rotate: true
+  xy: 1556, 201
+  size: 47, 13
+  orig: 50, 16
+  offset: 2, 1
+  index: -1
+Eye Open
+  rotate: true
+  xy: 1560, 809
+  size: 49, 9
+  orig: 51, 11
+  offset: 1, 1
+  index: -1
+Face Acc-05
+  rotate: false
+  xy: 1478, 19
+  size: 40, 35
+  orig: 42, 37
+  offset: 1, 1
+  index: -1
+Face Acc-07
+  rotate: false
+  xy: 1415, 590
+  size: 39, 37
+  orig: 41, 39
+  offset: 1, 1
+  index: -1
+Glass-01
+  rotate: false
+  xy: 1264, 2
+  size: 59, 25
+  orig: 61, 27
+  offset: 1, 1
+  index: -1
+Glass-02
+  rotate: false
+  xy: 1496, 152
+  size: 60, 22
+  orig: 62, 24
+  offset: 1, 1
+  index: -1
+Glass-03
+  rotate: false
+  xy: 1389, 2
+  size: 58, 24
+  orig: 60, 26
+  offset: 1, 1
+  index: -1
+Glass-04
+  rotate: false
+  xy: 1468, 104
+  size: 60, 22
+  orig: 62, 24
+  offset: 1, 1
+  index: -1
+Glass-05
+  rotate: false
+  xy: 1480, 128
+  size: 61, 22
+  orig: 63, 24
+  offset: 1, 1
+  index: -1
+Glass-06
+  rotate: true
+  xy: 1307, 29
+  size: 68, 34
+  orig: 82, 40
+  offset: 7, 5
+  index: -1
+Glass-07
+  rotate: false
+  xy: 1325, 2
+  size: 62, 24
+  orig: 64, 26
+  offset: 1, 1
+  index: -1
+Glass-08
+  rotate: false
+  xy: 1468, 82
+  size: 59, 20
+  orig: 61, 22
+  offset: 1, 1
+  index: -1
+Hair For Acc-02,03-01
+  rotate: true
+  xy: 798, 572
+  size: 100, 189
+  orig: 102, 190
+  offset: 2, 1
+  index: -1
+Hair For Acc-02,03-02
+  rotate: false
+  xy: 1468, 518
+  size: 72, 81
+  orig: 72, 91
+  offset: 0, 9
+  index: -1
+Hair For Acc-02,03-03
+  rotate: false
+  xy: 1298, 330
+  size: 96, 93
+  orig: 96, 95
+  offset: 0, 0
+  index: -1
+Hair For Acc-02,03-04
+  rotate: false
+  xy: 1396, 421
+  size: 70, 152
+  orig: 71, 159
+  offset: 0, 6
+  index: -1
+Hair For Acc-02,03-05
+  rotate: false
+  xy: 763, 37
+  size: 138, 218
+  orig: 138, 218
+  offset: 0, 0
+  index: -1
+Hair For Acc-02,03-06
+  rotate: true
+  xy: 814, 674
+  size: 103, 238
+  orig: 108, 239
+  offset: 3, 1
+  index: -1
+Hair For Acc-02,03-07
+  rotate: true
+  xy: 1458, 601
+  size: 66, 100
+  orig: 67, 101
+  offset: 0, 1
+  index: -1
+Hair For Acc-02,03-08
+  rotate: false
+  xy: 1073, 143
+  size: 106, 160
+  orig: 107, 161
+  offset: 1, 1
+  index: -1
+Hair For Acc-04-00
+  rotate: true
+  xy: 1496, 176
+  size: 72, 58
+  orig: 72, 61
+  offset: 0, 3
+  index: -1
+Hair For Acc-04-01
+  rotate: false
+  xy: 1088, 369
+  size: 100, 187
+  orig: 102, 189
+  offset: 2, 2
+  index: -1
+Hair For Acc-04-02
+  rotate: false
+  xy: 1468, 435
+  size: 69, 81
+  orig: 70, 91
+  offset: 0, 9
+  index: -1
+Hair For Acc-04-03
+  rotate: false
+  xy: 621, 2
+  size: 94, 94
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+Hair For Acc-04-04
+  rotate: true
+  xy: 162, 2
+  size: 69, 140
+  orig: 71, 145
+  offset: 1, 5
+  index: -1
+Hair For Acc-04-05
+  rotate: true
+  xy: 1054, 699
+  size: 78, 218
+  orig: 79, 218
+  offset: 1, 0
+  index: -1
+Hair For Acc-04-06
+  rotate: true
+  xy: 1056, 779
+  size: 104, 238
+  orig: 108, 239
+  offset: 3, 1
+  index: -1
+Hair For Acc-04-08
+  rotate: false
+  xy: 1190, 405
+  size: 106, 160
+  orig: 107, 161
+  offset: 1, 1
+  index: -1
+Hair-00
+  rotate: false
+  xy: 1490, 250
+  size: 75, 66
+  orig: 77, 69
+  offset: 1, 3
+  index: -1
+Hair For Acc-02,03-00
+  rotate: false
+  xy: 1490, 250
+  size: 75, 66
+  orig: 77, 69
+  offset: 1, 3
+  index: -1
+Hair-01
+  rotate: false
+  xy: 986, 369
+  size: 100, 187
+  orig: 102, 189
+  offset: 2, 2
+  index: -1
+Hair-02
+  rotate: false
+  xy: 1396, 328
+  size: 94, 91
+  orig: 95, 101
+  offset: 1, 9
+  index: -1
+Hair-03
+  rotate: false
+  xy: 1393, 233
+  size: 95, 93
+  orig: 96, 95
+  offset: 0, 0
+  index: -1
+Hair-04
+  rotate: true
+  xy: 2, 2
+  size: 69, 158
+  orig: 71, 165
+  offset: 1, 6
+  index: -1
+Hair-05
+  rotate: true
+  xy: 1297, 880
+  size: 150, 228
+  orig: 150, 228
+  offset: 0, 0
+  index: -1
+Hair-06
+  rotate: true
+  xy: 816, 779
+  size: 104, 238
+  orig: 108, 239
+  offset: 3, 1
+  index: -1
+Hair-07
+  rotate: true
+  xy: 1393, 165
+  size: 66, 101
+  orig: 67, 101
+  offset: 0, 0
+  index: -1
+Hair-08
+  rotate: false
+  xy: 965, 143
+  size: 106, 160
+  orig: 107, 161
+  offset: 1, 1
+  index: -1
+Head
+  rotate: false
+  xy: 1180, 567
+  size: 68, 88
+  orig: 70, 90
+  offset: 1, 1
+  index: -1
+Head Acc-02
+  rotate: false
+  xy: 1274, 687
+  size: 204, 70
+  orig: 206, 72
+  offset: 1, 1
+  index: -1
+Head Acc-03
+  rotate: false
+  xy: 471, 12
+  size: 148, 76
+  orig: 150, 78
+  offset: 1, 1
+  index: -1
+Head Acc-04
+  rotate: true
+  xy: 1176, 2
+  size: 71, 53
+  orig: 73, 55
+  offset: 1, 1
+  index: -1
+L Hand Dress-00
+  rotate: true
+  xy: 1492, 392
+  size: 41, 77
+  orig: 42, 86
+  offset: 1, 9
+  index: -1
+L Hand Dress-01
+  rotate: false
+  xy: 1181, 171
+  size: 41, 168
+  orig: 41, 171
+  offset: 0, 3
+  index: -1
+L Hand Dress-03
+  rotate: true
+  xy: 1250, 575
+  size: 52, 163
+  orig: 52, 164
+  offset: 0, 1
+  index: -1
+L Hand Dress-04
+  rotate: false
+  xy: 1314, 168
+  size: 41, 160
+  orig: 43, 175
+  offset: 1, 1
+  index: -1
+L Hand Dress-05
+  rotate: true
+  xy: 450, 90
+  size: 41, 169
+  orig: 42, 169
+  offset: 1, 0
+  index: -1
+L Hand Dress-06
+  rotate: false
+  xy: 1224, 172
+  size: 42, 167
+  orig: 42, 167
+  offset: 0, 0
+  index: -1
+L Hand Dress-07
+  rotate: false
+  xy: 903, 64
+  size: 60, 191
+  orig: 60, 192
+  offset: 0, 1
+  index: -1
+L Hand Dress-08
+  rotate: false
+  xy: 1527, 860
+  size: 42, 170
+  orig: 42, 170
+  offset: 0, 0
+  index: -1
+L Hand-01
+  rotate: true
+  xy: 1054, 657
+  size: 40, 206
+  orig: 42, 208
+  offset: 1, 1
+  index: -1
+Leg
+  rotate: false
+  xy: 763, 257
+  size: 141, 311
+  orig: 143, 313
+  offset: 1, 1
+  index: -1
+Necklaces-01
+  rotate: false
+  xy: 903, 45
+  size: 31, 17
+  orig: 33, 19
+  offset: 1, 1
+  index: -1
+Necklaces-02
+  rotate: false
+  xy: 989, 657
+  size: 30, 15
+  orig: 32, 17
+  offset: 1, 1
+  index: -1
+Necklaces-03
+  rotate: false
+  xy: 906, 257
+  size: 31, 18
+  orig: 33, 21
+  offset: 1, 2
+  index: -1
+Necklaces-04
+  rotate: true
+  xy: 1449, 2
+  size: 29, 20
+  orig: 31, 22
+  offset: 1, 1
+  index: -1
+Necklaces-05
+  rotate: false
+  xy: 1529, 66
+  size: 40, 36
+  orig: 43, 39
+  offset: 2, 1
+  index: -1
+Necklaces-06
+  rotate: false
+  xy: 1520, 26
+  size: 38, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1
+Necklaces-07
+  rotate: false
+  xy: 906, 277
+  size: 49, 37
+  orig: 52, 39
+  offset: 1, 1
+  index: -1
+Necklaces-08
+  rotate: false
+  xy: 1433, 33
+  size: 43, 21
+  orig: 45, 23
+  offset: 1, 1
+  index: -1
+R Hand Acc-01
+  rotate: true
+  xy: 1296, 759
+  size: 119, 226
+  orig: 121, 228
+  offset: 1, 1
+  index: -1
+R Hand Acc-06
+  rotate: true
+  xy: 1201, 76
+  size: 65, 54
+  orig: 67, 56
+  offset: 1, 1
+  index: -1
+R Hand Acc-08
+  rotate: true
+  xy: 1257, 99
+  size: 63, 54
+  orig: 65, 56
+  offset: 1, 1
+  index: -1
+R Hand Dress-00
+  rotate: true
+  xy: 924, 2
+  size: 39, 83
+  orig: 41, 91
+  offset: 0, 8
+  index: -1
+R Hand Dress-01
+  rotate: true
+  xy: 304, 37
+  size: 36, 162
+  orig: 36, 165
+  offset: 0, 3
+  index: -1
+R Hand Dress-02-01
+  rotate: false
+  xy: 1343, 28
+  size: 28, 61
+  orig: 36, 165
+  offset: 0, 1
+  index: -1
+R Hand Dress-02-03
+  rotate: false
+  xy: 1264, 29
+  size: 41, 68
+  orig: 45, 164
+  offset: 0, 0
+  index: -1
+R Hand Dress-02-04
+  rotate: true
+  xy: 1390, 101
+  size: 29, 76
+  orig: 34, 166
+  offset: 0, 1
+  index: -1
+R Hand Dress-02-05
+  rotate: false
+  xy: 1231, 4
+  size: 31, 70
+  orig: 35, 172
+  offset: 0, 1
+  index: -1
+R Hand Dress-02-06
+  rotate: true
+  xy: 1393, 132
+  size: 31, 85
+  orig: 35, 165
+  offset: 0, 0
+  index: -1
+R Hand Dress-02-07
+  rotate: false
+  xy: 717, 2
+  size: 36, 94
+  orig: 57, 195
+  offset: 18, 1
+  index: -1
+R Hand Dress-02-08
+  rotate: false
+  xy: 1524, 768
+  size: 34, 90
+  orig: 38, 169
+  offset: 0, 1
+  index: -1
+R Hand Dress-03
+  rotate: false
+  xy: 1268, 164
+  size: 44, 164
+  orig: 45, 164
+  offset: 1, 0
+  index: -1
+R Hand Dress-04
+  rotate: true
+  xy: 304, 2
+  size: 33, 165
+  orig: 34, 166
+  offset: 0, 1
+  index: -1
+R Hand Dress-05
+  rotate: true
+  xy: 965, 43
+  size: 35, 171
+  orig: 35, 172
+  offset: 0, 1
+  index: -1
+R Hand Dress-06
+  rotate: true
+  xy: 1009, 6
+  size: 35, 165
+  orig: 35, 165
+  offset: 0, 0
+  index: -1
+R Hand Dress-07
+  rotate: true
+  xy: 1262, 629
+  size: 56, 194
+  orig: 57, 195
+  offset: 1, 1
+  index: -1
+R Hand Dress-08
+  rotate: false
+  xy: 1357, 160
+  size: 34, 168
+  orig: 38, 169
+  offset: 0, 1
+  index: -1
+R Hand Holding
+  rotate: true
+  xy: 1437, 56
+  size: 24, 58
+  orig: 26, 60
+  offset: 1, 1
+  index: -1
+R Hand Normal
+  rotate: false
+  xy: 1313, 99
+  size: 18, 63
+  orig: 20, 65
+  offset: 1, 1
+  index: -1
+R Hand-01
+  rotate: true
+  xy: 755, 6
+  size: 29, 167
+  orig: 31, 169
+  offset: 1, 1
+  index: -1
+empty
+  rotate: false
+  xy: 986, 569
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

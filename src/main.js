@@ -5,14 +5,32 @@ import { CapacitorHttp, Capacitor } from '@capacitor/core';
 import { registerSW } from 'virtual:pwa-register';
 import JSZip from 'jszip';
 
-const updateSW = registerSW({
-  immediate: true,
-  onNeedRefresh() {
-    updateSW(true);
-  }
-});
+const isNativePlatform = Capacitor.getPlatform() !== 'web';
+let updateSW = null;
 
-window.addEventListener('load', () => updateSW());
+if (!isNativePlatform) {
+  updateSW = registerSW({
+    immediate: true,
+    onNeedRefresh() {
+      updateSW?.(true);
+    }
+  });
+
+  window.addEventListener('load', () => updateSW?.());
+} else if ('serviceWorker' in navigator) {
+  const swResetKey = 'playstori-sw-reset';
+  navigator.serviceWorker.getRegistrations()
+    .then((regs) => {
+      if (!regs.length) return;
+      return Promise.all(regs.map((reg) => reg.unregister())).then(() => {
+        if (navigator.serviceWorker.controller && !sessionStorage.getItem(swResetKey)) {
+          sessionStorage.setItem(swResetKey, '1');
+          window.location.reload();
+        }
+      });
+    })
+    .catch((err) => console.warn('Failed to unregister service workers', err));
+}
 
 const els = {
   gamesGrid: document.getElementById('games-grid'),
@@ -26,7 +44,9 @@ const els = {
   homeView: document.getElementById('home-view'),
   managerView: document.getElementById('manager-view'),
   managerList: document.getElementById('manager-list'),
-  storageStats: document.getElementById('storage-stats')
+  storageStats: document.getElementById('storage-stats'),
+  downloadAllBtn: document.getElementById('download-all'),
+  deleteAllBtn: document.getElementById('delete-all')
 };
 
 const state = {
@@ -43,6 +63,8 @@ const STORAGE_KEYS = {
   disabled: 'playstori-disabled',
   manifestVersion: 'playstori-manifest-version'
 };
+
+const GAME_ENTRY_FILE = '.entry.json';
 
 const CATEGORIES = [
   'All',
@@ -64,37 +86,205 @@ async function loadPrefs() {
 }
 
 async function loadGames() {
-  // 1. Load local games.json
-  try {
-    const res = await fetch('/appstorage/games.json', { cache: 'no-cache' });
-    if (res.ok) {
-      const localData = await res.json();
-      state.games = localData?.games || [];
-      state.manifestVersion = localData?.manifestVersion || 0;
+  // 1. Load initial manifest
+  // We try Filesystem first (persisted update), then fall back to bundled asset
+  let manifestLoaded = false;
+
+  if (Capacitor.getPlatform() !== 'web') {
+    try {
+      const saved = await Filesystem.readFile({
+        path: 'games-update.json',
+        directory: Directory.Data,
+        encoding: 'utf8'
+      });
+      const data = JSON.parse(saved.data);
+      state.games = data.games || [];
+      state.manifestVersion = data.manifestVersion || 0;
+      manifestLoaded = true;
+      console.log('Loaded persisted manifest version:', state.manifestVersion);
+    } catch (e) {
+      console.log('No persisted manifest found or failed to parse. Falling back to assets.');
     }
-  } catch (e) {
-    console.warn('Local games.json could not be parsed.', e);
+  }
+
+  if (!manifestLoaded) {
+    try {
+      const res = await fetch('/appstorage/games.json', { cache: 'no-cache' });
+      if (res.ok) {
+        const localData = await res.json();
+        state.games = localData?.games || [];
+        state.manifestVersion = localData?.manifestVersion || 0;
+        console.log('Loaded bundled manifest version:', state.manifestVersion);
+      }
+    } catch (e) {
+      console.warn('Local games.json could not be parsed.', e);
+    }
   }
 
   // 2. Check for remote updates
   try {
-    const remoteRes = await fetch('https://playstori.org/appstorage/games.json', { cache: 'no-cache' });
-    if (remoteRes.ok) {
-      const contentType = (remoteRes.headers.get('Content-Type') || '').toLowerCase();
-      if (contentType.includes('application/json')) {
-        const remoteData = await remoteRes.json();
-        if (remoteData.manifestVersion > state.manifestVersion) {
-          state.games = remoteData.games;
-          state.manifestVersion = remoteData.manifestVersion;
-          await Preferences.set({ key: STORAGE_KEYS.manifestVersion, value: String(state.manifestVersion) });
+    // We use CapacitorHttp directly to avoid CORS and because we disabled the global patch
+    const remoteRes = await CapacitorHttp.get({
+      url: 'https://playstori.org/appstorage/games.json'
+    });
+
+    // CapacitorHttp returns .data as parsed JSON if content-type matches, or string/obj
+    if (remoteRes.status === 200) {
+      const remoteData = remoteRes.data;
+      // Depending on version/platform, data might be parsed object or string
+      const dataObj = typeof remoteData === 'string' ? JSON.parse(remoteData) : remoteData;
+
+      if (dataObj && dataObj.manifestVersion > state.manifestVersion) {
+        console.log(`Updating manifest: ${state.manifestVersion} -> ${dataObj.manifestVersion}`);
+        state.games = dataObj.games;
+        state.manifestVersion = dataObj.manifestVersion;
+
+        // Save for next restart
+        if (Capacitor.getPlatform() !== 'web') {
+          await Filesystem.writeFile({
+            path: 'games-update.json',
+            data: JSON.stringify(dataObj),
+            directory: Directory.Data,
+            encoding: 'utf8'
+          });
         }
-      } else {
-        console.warn('Remote games.json returned non-JSON content. Skipping update.');
+
+        await Preferences.set({ key: STORAGE_KEYS.manifestVersion, value: String(state.manifestVersion) });
+        renderGames();
       }
     }
   } catch (e) {
     console.warn('Could not check for remote manifest update', e);
   }
+}
+
+
+function normalizeEntryPath(entryPath) {
+  if (!entryPath) return null;
+  let normalized = entryPath.replace(/\\/g, '/').trim();
+  normalized = normalized.replace(/^\.?\//, '');
+  while (normalized.startsWith('/')) normalized = normalized.slice(1);
+  while (normalized.startsWith('../')) normalized = normalized.slice(3);
+  return normalized || null;
+}
+
+function pickEntryPathFromZip(zip) {
+  const fileNames = Object.keys(zip.files)
+    .filter((name) => !zip.files[name].dir)
+    .map((name) => name.replace(/\\/g, '/'));
+  const indexFiles = fileNames.filter((name) => name.toLowerCase().endsWith('index.html'));
+  if (!indexFiles.length) return null;
+  const rootIndex = indexFiles.find((name) => !name.includes('/'));
+  if (rootIndex) return rootIndex;
+  return indexFiles.sort((a, b) => {
+    const aLower = a.toLowerCase();
+    const bLower = b.toLowerCase();
+    const aUnmin = aLower.includes('unmin') || aLower.includes('debug');
+    const bUnmin = bLower.includes('unmin') || bLower.includes('debug');
+    if (aUnmin !== bUnmin) return aUnmin ? 1 : -1;
+    const aMin = aLower.includes('minify');
+    const bMin = bLower.includes('minify');
+    if (aMin !== bMin) return aMin ? -1 : 1;
+    const depthDiff = a.split('/').length - b.split('/').length;
+    return depthDiff || a.length - b.length;
+  })[0];
+}
+
+function getEntryPathFromManifest(game) {
+  if (!game?.path || !game?.id) return null;
+  let path = game.path.replace(/\\/g, '/').trim();
+  path = path.replace(/^\/+/, '');
+  const primaryPrefix = `appstorage/games/${game.id}/`;
+  if (path.startsWith(primaryPrefix)) {
+    return normalizeEntryPath(path.slice(primaryPrefix.length));
+  }
+  const altPrefix = `/appstorage/games/${game.id}/`;
+  if (path.startsWith(altPrefix)) {
+    return normalizeEntryPath(path.slice(altPrefix.length));
+  }
+  const idMarker = `${game.id}/`;
+  const idx = path.indexOf(idMarker);
+  if (idx !== -1) {
+    return normalizeEntryPath(path.slice(idx + idMarker.length));
+  }
+  return normalizeEntryPath(path);
+}
+
+async function saveGameEntryPath(gameId, entryPath) {
+  const normalized = normalizeEntryPath(entryPath);
+  if (!normalized) return;
+  await Filesystem.writeFile({
+    path: `games/${gameId}/${GAME_ENTRY_FILE}`,
+    data: JSON.stringify({ path: normalized }),
+    directory: Directory.Data,
+    encoding: 'utf8'
+  });
+}
+
+async function loadGameEntryPath(gameId) {
+  try {
+    const stored = await Filesystem.readFile({
+      path: `games/${gameId}/${GAME_ENTRY_FILE}`,
+      directory: Directory.Data,
+      encoding: 'utf8'
+    });
+    const data = JSON.parse(stored.data);
+    return normalizeEntryPath(data?.path);
+  } catch {
+    return null;
+  }
+}
+
+async function findIndexHtmlPath(gameId) {
+  const basePath = `games/${gameId}`;
+  const queue = [basePath];
+
+  while (queue.length) {
+    const current = queue.shift();
+    let entries;
+    try {
+      entries = await Filesystem.readdir({
+        path: current,
+        directory: Directory.Data
+      });
+    } catch {
+      continue;
+    }
+
+    for (const entry of entries.files || []) {
+      const name = typeof entry === 'string' ? entry : entry.name;
+      if (!name) continue;
+      const fullPath = `${current}/${name}`;
+      const type = typeof entry === 'string' ? null : entry.type;
+
+      if (type === 'directory') {
+        queue.push(fullPath);
+        continue;
+      }
+
+      if (name.toLowerCase() === 'index.html') {
+        return fullPath;
+      }
+
+      if (type == null) {
+        try {
+          const stat = await Filesystem.stat({
+            path: fullPath,
+            directory: Directory.Data
+          });
+          if (stat.type === 'directory') {
+            queue.push(fullPath);
+          } else if (name.toLowerCase() === 'index.html') {
+            return fullPath;
+          }
+        } catch {
+          // ignore unknown entries
+        }
+      }
+    }
+  }
+
+  return null;
 }
 
 const DownloadManager = {
@@ -185,6 +375,15 @@ const DownloadManager = {
         }
       }
 
+
+      const entryPath = pickEntryPathFromZip(zip);
+      const manifestEntry = getEntryPathFromManifest(game);
+      if (manifestEntry) {
+        await saveGameEntryPath(game.id, manifestEntry);
+      } else if (entryPath) {
+        await saveGameEntryPath(game.id, entryPath);
+      }
+
       showToast(`${game.name} is ready to play!`);
     } catch (e) {
       console.error(e);
@@ -209,6 +408,30 @@ const DownloadManager = {
     } catch (e) {
       console.error(e);
       showToast('Failed to delete game.');
+    }
+  },
+
+  async deleteAll() {
+    if (!confirm('Are you sure you want to delete ALL downloaded games to free up space?')) return;
+    try {
+      const result = await Filesystem.readdir({
+        path: 'games',
+        directory: Directory.Data
+      });
+
+      for (const file of result.files) {
+        await Filesystem.rmdir({
+          path: `games/${file.name}`,
+          directory: Directory.Data,
+          recursive: true
+        });
+      }
+      renderGames();
+      renderManager();
+      showToast('All local games deleted.');
+    } catch (e) {
+      console.error('Delete all failed', e);
+      showToast('Cleanup failed.');
     }
   }
 };
@@ -328,13 +551,44 @@ async function openGame(game) {
       return;
     }
 
-    const result = await Filesystem.getUri({
-      path: `games/${game.id}/index.html`,
-      directory: Directory.Data
-    });
+    let entryPath = getEntryPathFromManifest(game);
+    if (!entryPath) {
+      entryPath = await loadGameEntryPath(game.id);
+    }
+    if (!entryPath) {
+      entryPath = 'index.html';
+    }
+
+    let fullPath = `games/${game.id}/${entryPath}`;
+    let result;
+
+    try {
+      await Filesystem.stat({
+        path: fullPath,
+        directory: Directory.Data
+      });
+      result = await Filesystem.getUri({
+        path: fullPath,
+        directory: Directory.Data
+      });
+    } catch {
+      const scannedPath = await findIndexHtmlPath(game.id);
+      if (!scannedPath) {
+        throw new Error('index.html not found for game.');
+      }
+      await saveGameEntryPath(game.id, scannedPath.replace(`games/${game.id}/`, ''));
+      fullPath = scannedPath;
+      result = await Filesystem.getUri({
+        path: fullPath,
+        directory: Directory.Data
+      });
+    }
 
     // Use Capacitor's utility to convert file:// to a URL the webview can load
     const gameUrl = Capacitor.convertFileSrc(result.uri);
+    console.log('Launching game at:', gameUrl);
+
+    // Load the game directly in the app WebView (no iframe)
     window.location.href = gameUrl;
   } catch (e) {
     console.error(e);
@@ -420,6 +674,22 @@ function setupEvents() {
 
   if (els.navHome) els.navHome.addEventListener('click', () => switchView('home'));
   if (els.navManager) els.navManager.addEventListener('click', () => switchView('manager'));
+
+  if (els.deleteAllBtn) {
+    els.deleteAllBtn.addEventListener('click', () => DownloadManager.deleteAll());
+  }
+
+  if (els.downloadAllBtn) {
+    els.downloadAllBtn.addEventListener('click', async () => {
+      const cloudGames = state.games.filter(g => !state.downloading.has(g.id));
+      showToast(`Starting download of ${cloudGames.length} games...`);
+      for (const g of cloudGames) {
+        if (!(await DownloadManager.isDownloaded(g.id))) {
+          await DownloadManager.downloadAndUnpack(g);
+        }
+      }
+    });
+  }
 }
 
 async function start() {

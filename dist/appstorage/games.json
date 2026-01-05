@@ -512,7 +512,7 @@
             "version": 1,
             "description": "Play Santa Runner.",
             "path": "appstorage/games/santa-runner/index.html",
-            "thumb": "santa-runner/icon-256.png"
+            "thumb": "appstorage/icons/santa-runner.png"
         },
         {
             "id": "impossible-rise",
@@ -763,6 +763,16 @@
             "description": "Play Box Runner.",
             "path": "appstorage/games/box-runner/index.html",
             "thumb": "appstorage/icons/box-runner.png"
+        },
+        {
+            "id": "cut-dressup",
+            "name": "K-Pop Hunter Fashion",
+            "tag": "dressup",
+            "category": "✨ Learning Adventures",
+            "version": 1,
+            "description": "Style your own K-Pop idol in this fashion adventure.",
+            "path": "appstorage/games/cut-dressup/index.html",
+            "thumb": "appstorage/icons/cut-dressup.png"
         }
     ]
 }

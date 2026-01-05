@@ -28,11 +28,16 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
-        globIgnores: ['games/**'],
+        globIgnores: ['games/**', 'appstorage/games/**'],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         skipWaiting: true,
         clientsClaim: true,
-        navigateFallbackDenylist: [/^\/games\//],
+        navigateFallbackDenylist: [
+          /^\/games\//,
+          /^\/appstorage\/games\//,
+          /^\/_capacitor_file_\//,
+          /^\/_capacitor_content_\//
+        ],
         runtimeCaching: [
           {
             urlPattern: /\/appstorage\/games\.json$/i,

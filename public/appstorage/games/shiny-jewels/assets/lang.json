@@ -1,0 +1,868 @@
+{
+    "stringresources": {
+        "strings": {
+            "string": [
+				{
+					"id": "PlayKey",
+					"en": "Play",
+					"de": "Spielen",
+					"es": "Jugar",
+					"fr": "Jouer à",
+					"it": "Giocare",
+					"br": "Reproduzir",
+					"ru": "Играть"
+				},
+				{
+					"id": "DayKey",
+					"en": "Day",
+					"de": "Tag",
+					"es": "Día",
+					"fr": "Jou",
+					"it": "Giorno",
+					"br": "Dia",
+					"ru": "День"
+				},
+				{
+					"id": "NoMoreMovesKey",
+					"en": "NO MORE\nMOVES",
+					"de": "Keine Züge\nmehr",
+					"es": "no más\nmovimientos",
+					"fr": "À court\nde coups",
+					"it": "Mosse\nesaurite",
+					"br": "Acabaram-se\nos movimentos",
+					"ru": "Больше нет\nходов"
+				},
+				{
+					"id": "GreatKey",
+					"en": "Great!",
+					"de": "Super!",
+					"es": "¡Genial!",
+					"fr": "Magnifique!",
+					"it": "Ottimo!",
+					"br": "Ótimo!",
+					"ru": "Отлично"
+				},
+				{
+					"id": "PerfectKey",
+					"en": "Perfect!",
+					"de": "Perfekt!",
+					"es": "¡Perfecto!",
+					"fr": "Parfait!",
+					"it": "Perfetto!",
+					"br": "Perfeito!",
+					"ru": "Идеально"
+				},
+				{
+					"id": "ExcellentKey",
+					"en": "Excellent!",
+					"de": "AUSGEZEICHNET!",
+					"es": "¡Excelente!",
+					"fr": "EXCELLENT!",
+					"it": "ECCELLENTE!",
+					"br": "EXCELENTE!",
+					"ru": "Прекрасно"
+				},
+				{
+					"id": "ClaimKey",
+					"en": "Claim",
+					"de": "Fordern Sie",
+					"es": "Reclamar",
+					"fr": "Réclamer",
+					"it": "Richiesta",
+					"br": "Reivindicação",
+					"ru": "Заявка"
+				},
+                {
+                    "id": "GoalsKey",
+                    "en": "Goals",
+                    "de": "Ziele:",
+                    "es": "Objetivos:",
+                    "fr": "Objectifs :",
+                    "it": "Obiettivi:",
+                    "br": "Objectivos:",
+                    "ru": "Цели:"
+                },
+                {
+                    "id": "SelectBoosterKey",
+                    "en": "Select booster",
+                    "de": "Booster auswählen",
+                    "es": "Selecciona un potenciador",
+                    "fr": "Choisir un booster",
+                    "it": "Seleziona il booster",
+                    "br": "Selecione o impulsionador",
+                    "ru": "Выберите бустер"
+                },
+                {
+                    "id": "SpinKey",
+                    "en": "Spin",
+                    "de": "Drehen",
+                    "es": "Girar",
+                    "fr": "Tourner",
+                    "it": "Gira",
+                    "br": "Girar",
+                    "ru": "ВРАЩАТЬ"
+                },
+                {
+                    "id": "TutorialKey",
+                    "en": "Tutorial",
+                    "de": "Tutorial",
+                    "es": "Tutorial",
+                    "fr": "Tutoriel",
+                    "it": "Tutorial",
+                    "br": "Tutorial",
+                    "ru": "РУКОВОДСТВО"
+                },
+                {
+                    "id": "TargetKey",
+                    "en": "Targets",
+                    "de": "Ziele",
+                    "es": "Objetivos",
+                    "fr": "Cibles",
+                    "it": "Obiettivi",
+                    "br": "Metas",
+                    "ru": "Цели"
+                },
+                {
+                    "id": "MovesKey",
+                    "en": "Moves",
+                    "de": "Züge",
+                    "es": "Movimientos",
+                    "fr": "Coups",
+                    "it": "Mosse",
+                    "br": "Movimentos",
+                    "ru": "ХОДОВ"
+                },
+                {
+                    "id": "ContinueQuestionTextKey",
+                    "en": "Continue?",
+                    "de": "Weiter?",
+                    "es": "¿Continuar?",
+                    "fr": "Continuer ?",
+                    "it": "Continuare?",
+                    "br": "Continuar?",
+                    "ru": "Продолжить?"
+                },
+                {
+                    "id": "ContinueTextKey",
+                    "en": "Continue",
+                    "de": "",
+                    "es": "",
+                    "fr": "",
+                    "it": "",
+                    "br": "",
+                    "ru": ""
+                },
+                {
+                    "id": "AddXmovesKey",
+                    "en": "Add [X] moves to keep playing!",
+                    "de": "5 Züge hinzufügen, um weiterzuspielen!",
+                    "es": "¡Añade 5 movimientos para seguir jugando!",
+                    "fr": "Ajoutez 5 coups pour continuer à jouer !",
+                    "it": "Aggiungi 5 mosse per continuare a giocare!",
+                    "br": "Adicione 5 movimentos para continuar jogando!",
+                    "ru": "Добавьте 5 ходов, чтобы продолжить игру!"
+                },
+                {
+                    "id": "LevelFailedKey",
+                    "en": "Level failed!",
+                    "de": "Level nicht geschafft!",
+                    "es": "Nivel fallido!",
+                    "fr": "Niveau échoué!",
+                    "it": "Livello fallito!",
+                    "br": "Nível fracassado!",
+                    "ru": "УРОВЕНЬ ПРОВАЛЕН!"
+                },
+                {
+                  "id": "LevelClearedKey",
+                  "en": "Level cleared!",
+                  "de": "Level geschafft!",
+                  "es": "¡Nivel superado!",
+                  "fr": "Niveau franchi !",
+                  "it": "Livello superato!",
+                  "br": "Nível liberado!",
+                  "ru": "Уровень пройден!"
+                },
+                {
+                    "id": "LevelKey",
+                    "en": "Level",
+                    "de": "Level",
+                    "es": "Nivel",
+                    "fr": "Niveau",
+                    "it": "Livello",
+                    "br": "Nível",
+                    "ru": "Уровень"
+                },
+                {
+                    "id": "WhiteColorKey",
+                    "en": "White",
+                    "de": "Weiß",
+                    "es": "Blanco",
+                    "fr": "Blanc",
+                    "it": "Bianco",
+                    "br": "Branco",
+                    "ru": "Белый"
+                },
+                {
+                    "id": "YellowColorKey",
+                    "en": "Yellow",
+                    "de": "Gelb",
+                    "es": "Amarillo",
+                    "fr": "Jaune",
+                    "it": "Gialla",
+                    "br": "Amarelo",
+                    "ru": "желтый"
+                },
+                {
+                    "id": "PurpleColorKey",
+                    "en": "Purple",
+                    "de": "Violett",
+                    "es": "Morado",
+                    "fr": "Violet",
+                    "it": "Viola",
+                    "br": "Roxo",
+                    "ru": "Фиолетовый"
+                },
+                {
+                    "id": "BlueColorKey",
+                    "en": "Blue",
+                    "de": "Blau",
+                    "es": "Azul",
+                    "fr": "Bleu",
+                    "it": "Blu",
+                    "br": "Azul",
+                    "ru": "Голубой"
+                },
+                {
+                    "id": "PinkColorKey",
+                    "en": "Pink",
+                    "de": "Rosa",
+                    "es": "Rosa",
+                    "fr": "Rose",
+                    "it": "Rosa",
+                    "br": "Pink",
+                    "ru": "Розовый"
+                },
+                {
+                    "id": "GreenColorKey",
+                    "en": "Green",
+                    "de": "Grün",
+                    "es": "Verde",
+                    "fr": "Vert",
+                    "it": "Verde",
+                    "br": "Verde",
+                    "ru": "Зеленый"
+                },
+                {
+                    "id": "RedColorKey",
+                    "en": "Red",
+                    "de": "Rot",
+                    "es": "Rojo",
+                    "fr": "Rouge",
+                    "it": "Rosso",
+                    "br": "Vermelho",
+                    "ru": "Красный"
+                },
+                {
+                    "id": "InstructionsContent2Key",
+                    "en": "Collect the target items to complete each level. Complete missions to earn rewards and progress your rank to unlock more levels.",
+                    "de": "Sammle die Zielobjekte ein, um jedes Level zu beenden. Schließe Missionen ab, um Belohnungen zu erhalten und deinen Rang zu verbessern, um weitere Level freizuschalten.",
+                    "es": "Recoge los objetos para completar cada nivel. Completa misiones para ganar recompensas y progresar en tu rango para desbloquear más niveles.",
+                    "fr": "Collectez les objets cibles pour terminer chaque niveau. Accomplissez des missions pour gagner des récompenses et progresser dans votre rang pour débloquer plus de niveaux.",
+                    "it": "Raccogliete gli oggetti target per completare ogni livello. Completate le missioni per ottenere ricompense e avanzare di grado per sbloccare altri livelli.",
+                    "br": "Colete os itens de destino para completar cada nível. Completar missões para ganhar recompensas e progredir em sua classificação para desbloquear mais níveis.",
+                    "ru": "Собирайте целевые предметы, чтобы завершить каждый уровень. Выполняйте задания, чтобы заработать награды и повысить свой ранг, чтобы открыть новые уровни."
+                },
+                {
+                    "id": "InstructionsContent3Key",
+                    "en": "Check the spinning wheel for free rewards, and shop offers to spend your earned coins.",
+                    "de": "Sieh dir das Drehrad an, um kostenlose Belohnungen zu erhalten, und kaufe im Shop ein, um deine verdienten Münzen auszugeben.",
+                    "es": "Consulta la ruleta para conseguir recompensas gratuitas y ofertas de tiendas para gastar las monedas ganadas.",
+                    "fr": "Vérifiez la roue qui tourne pour obtenir des récompenses gratuites, et les offres de boutiques pour dépenser vos pièces gagnées.",
+                    "it": "Controlla la ruota che gira per ottenere premi gratuiti e le offerte dei negozi per spendere le monete guadagnate.",
+                    "br": "Verifique a roda giratória para obter recompensas grátis, e faça compras para gastar suas moedas ganhas.",
+                    "ru": "Проверьте вращающееся колесо, чтобы получить бесплатные вознаграждения, и предложения от магазинов, чтобы потратить заработанные монеты."
+                },
+                {
+                    "id": "SettingsKey",
+                    "en": "Settings",
+                    "de": "Einstellungen",
+                    "es": "Ajustes",
+                    "fr": "Paramètres",
+                    "it": "Impostazioni",
+                    "br": "Configurações",
+                    "ru": "Настройки"
+                },
+                {
+                    "id": "RewardKey",
+                    "en": "Reward",
+                    "de": "Belohnung",
+                    "es": "Recompensa",
+                    "fr": "Récompense",
+                    "it": "Ricompensa",
+                    "br": "Recompensa",
+                    "ru": "Вознаграждение"
+                },
+                {
+                    "id": "WatchAdKey",
+                    "en": "Watch ad",
+                    "de": "Anzeige ansehen",
+                    "es": "Ver anuncio",
+                    "fr": "Regarder la publicité",
+                    "it": "Guarda l'annuncio",
+                    "br": "Assista ao anúncio",
+                    "ru": "Смотреть рекламу"
+                },
+                {
+                    "id": "NoThanksKey",
+                    "en": "No thanks!",
+                    "de": "Nein Danke!",
+                    "es": "¡No gracias!",
+                    "fr": "Non merci !",
+                    "it": "No grazie!",
+                    "br": "Não, obrigado!",
+                    "ru": "Нет, спасибо!"
+                },
+                {
+                    "id": "ClaimKey",
+                    "en": "Claim",
+                    "de": "Fordern Sie",
+                    "es": "Reclamar",
+                    "fr": "Réclamer",
+                    "it": "Richiesta",
+                    "br": "Reivindicação",
+                    "ru": "Заявка"
+                },
+                {
+                    "id": "FreeKey",
+                    "en": "Free",
+                    "de": "Gratis",
+                    "es": "Gratis",
+                    "fr": "Gratuit",
+                    "it": "Gratis",
+                    "br": "Grátis",
+                    "ru": "беспл."
+                },
+                {
+                    "id": "TimeAttackKey",
+                    "en": "Time Attack!",
+                    "de": "Zeitangriff!",
+                    "es": "¡Ataque de tiempo!",
+                    "fr": "Attaque contre le temps !",
+                    "it": "Attacco al tempo!",
+                    "br": "Ataque de tempo!",
+                    "ru": "Атака временем!"
+                },
+                {
+                    "id": "TimeAttackTutKey",
+                    "en": "Complete the level within a certain time limit!",
+                    "de": "Schließe das Level innerhalb eines bestimmten Zeitlimits ab!",
+                    "es": "Completa el nivel dentro de un tiempo límite.",
+                    "fr": "Terminez le niveau dans le temps imparti !",
+                    "it": "Completa il livello entro un certo limite di tempo!",
+                    "br": "Conclua o nível em um determinado limite de tempo!",
+                    "ru": "Пройдите уровень за определенное время!"
+                },
+                {
+                    "id": "TimeKey",
+                    "en": "Time",
+                    "de": "Zeit",
+                    "es": "Tiempo",
+                    "fr": "Temps",
+                    "it": "Tempo",
+                    "br": "Tempo",
+                    "ru": "Время"
+                },
+                {
+                    "id": "FortuneFindKey",
+                    "en": "Fortune Finders!",
+                    "de": "Glücksfinder!",
+                    "es": "¡Encuentra la fortuna!",
+                    "fr": "Cherche fortune !",
+                    "it": "Trova la fortuna!",
+                    "br": "Fortune Finders!",
+                    "ru": "Поиск удачи!"
+                },
+                {
+                    "id": "BoostWandTitleKey",
+                    "en": "Ring",
+                    "de": "Ring",
+                    "es": "Anillo",
+                    "fr": "Anneau",
+                    "it": "Anello",
+                    "br": "Anel",
+                    "ru": "Кольцо"
+                },
+                {
+                    "id": "BoostSawTitleKey",
+                    "en": "Hammer",
+                    "de": "Hammer",
+                    "es": "Martillo",
+                    "fr": "Marteau",
+                    "it": "Martello",
+                    "br": "Martelo",
+                    "ru": "Молоток"
+                },
+                {
+                    "id": "BoostScissorsTitleKey",
+                    "en": "Bow",
+                    "de": "Bogen",
+                    "es": "Arco",
+                    "fr": "Arc",
+                    "it": "Arco",
+                    "br": "Arco",
+                    "ru": "Лук"
+                },
+                {
+                    "id": "BoostDynamiteTitleKey",
+                    "en": "Blast",
+                    "de": "Explosion",
+                    "es": "Explosión",
+                    "fr": "Explosion",
+                    "it": "Esplosione",
+                    "br": "Explosão",
+                    "ru": "Взрыв"
+                },
+                {
+                    "id": "BoostWandDescKey",
+                    "en": "Swap any two adjacent Jewels, even without creating a match.",
+                    "de": "Tausche zwei beliebige, nebeneinander liegende Juwelen, auch ohne eine Übereinstimmung zu erzeugen.",
+                    "es": "Intercambia dos joyas adyacentes, incluso sin crear una coincidencia.",
+                    "fr": "Échangez deux joyaux adjacents, même sans créer de correspondance.",
+                    "it": "Scambiate due gioielli adiacenti, anche senza creare una corrispondenza.",
+                    "br": "Troque quaisquer duas joias adjacentes, mesmo sem criar uma correspondência.",
+                    "ru": "Поменяйте местами два любых соседних драгоценных камня, даже если они не совпадают."
+                },
+                {
+                    "id": "BoostSawDescKey",
+                    "en": "Clear any type of obstacle.",
+                    "de": "Beseitige jede Art von Hindernis.",
+                    "es": "Elimina cualquier tipo de obstáculo.",
+                    "fr": "Eliminez n'importe quel type d'obstacle.",
+                    "it": "Eliminare qualsiasi tipo di ostacolo.",
+                    "br": "Elimine qualquer tipo de obstáculo.",
+                    "ru": "Преодолевайте препятствия любого типа."
+                },
+                {
+                    "id": "BoostScissorsDescKey",
+                    "en": "Choose one row to strike everything in it!",
+                    "de": "Wähle eine Reihe, um alles in ihr zu zerstören!",
+                    "es": "Elige una fila para golpear todo lo que haya en ella.",
+                    "fr": "Choisissez une rangée et frappez tout ce qu'elle contient !",
+                    "it": "Scegliere una fila per colpire tutto ciò che contiene!",
+                    "br": "Escolha uma fileira para atingir tudo o que estiver nela!",
+                    "ru": "Выберите один ряд, чтобы поразить все, что в нем находится!"
+                },
+                {
+                    "id": "BoostDynamiteDescKey",
+                    "en": "Choose one type of object and strike all objects of that type!",
+                    "de": "Wähle eine Art von Objekt und entferne alle Objekte dieser Art!",
+                    "es": "¡Elige un tipo de objeto y elimina todos los objetos de ese tipo!",
+                    "fr": "Choisissez un type d'objet et supprimez tous les objets de ce type !",
+                    "it": "Scegli un tipo di oggetto ed elimina tutti gli oggetti di quel tipo!",
+                    "br": "Escolha um tipo de objeto e elimine todos os objetos desse tipo!",
+                    "ru": "Выберите один тип объекта и удалите все объекты этого типа!"
+                },
+                {
+                    "id": "WelcomeKey",
+                    "en": "Welcome!",
+                    "de": "Herzlich willkommen!",
+                    "es": "Bienvenido.",
+                    "fr": "Bienvenue !",
+                    "it": "Benvenuti!",
+                    "br": "Seja bem-vindo!",
+                    "ru": "Добро пожаловать!"
+                },
+                {
+                    "id": "PieKey",
+                    "en": "Pie",
+                    "de": "Kuchen",
+                    "es": "Pastel",
+                    "fr": "Tarte",
+                    "it": "Torta",
+                    "br": "Torta",
+                    "ru": "Пирог"
+                },
+                {
+                    "id": "BlockKey",
+                    "en": "Glass",
+                    "de": "Glas",
+                    "es": "Vidrio",
+                    "fr": "Verre",
+                    "it": "Vetro",
+                    "br": "Vidro",
+                    "ru": "Стекло"
+                },
+                {
+                    "id": "DropperKey",
+                    "en": "Chalice",
+                    "de": "Kelch",
+                    "es": "Cáliz",
+                    "fr": "Calice",
+                    "it": "Calice",
+                    "br": "Cálice",
+                    "ru": "Чаша"
+                },
+                {
+                    "id": "MailKey",
+                    "en": "Crystal",
+                    "de": "Kristall",
+                    "es": "Cristal",
+                    "fr": "Cristal",
+                    "it": "Cristallo",
+                    "br": "Cristal",
+                    "ru": "Кристалл"
+                },
+                {
+                    "id": "BoxKey",
+                    "en": "Vault",
+                    "de": "Tresor",
+                    "es": "Bóveda",
+                    "fr": "Coffre-fort",
+                    "it": "Cassaforte",
+                    "br": "Cofre",
+                    "ru": "Сейф"
+                },
+                {
+                    "id": "CageKey",
+                    "en": "Cage",
+                    "de": "Käfig",
+                    "es": "Jaula",
+                    "fr": "Cage",
+                    "it": "Gabbia",
+                    "br": "Gaiola",
+                    "ru": "Клетка"
+                },
+                {
+                    "id": "CarpetTitleKey",
+                    "en": "Carpet",
+                    "de": "Teppich",
+                    "es": "Alfombra",
+                    "fr": "Tapis",
+                    "it": "Tappeto",
+                    "br": "Tapete",
+                    "ru": "Ковёр"
+                },
+                {
+                    "id": "SpreaderTitleKey",
+                    "en": "Ingot",
+                    "de": "Barren",
+                    "es": "Lingote",
+                    "fr": "Lingot",
+                    "it": "Lingotto",
+                    "br": "Lingote",
+                    "ru": "Слиток"
+                },
+                {
+                    "id": "StoneTitleKey",
+                    "en": "Stone",
+                    "de": "Stein",
+                    "es": "Piedra",
+                    "fr": "Pierre",
+                    "it": "Pietra",
+                    "br": "Pedra",
+                    "ru": "Камень"
+                },
+                {
+                    "id": "Tut1Key",
+                    "en": "Swap adjacent Jewels to match triplets of the same color to collect them.",
+                    "de": "Tauschen Sie benachbarte Juwelen, um Drillinge der gleichen Farbe zu sammeln.",
+                    "es": "Intercambia Joyas adyacentes para emparejar trillizos del mismo color y recogerlos.",
+                    "fr": "Échangez les joyaux adjacents pour obtenir des triplés de la même couleur et les collecter.",
+                    "it": "Scambiate i Gioielli adiacenti per abbinare triplette dello stesso colore e raccoglierli.",
+                    "br": "Troque as joias adjacentes para combinar trigêmeos da mesma cor e coletá-los.",
+                    "ru": "Поменяйте местами соседние драгоценности, чтобы собрать тройки одного цвета."
+                },
+                {
+                    "id": "Tut2Key",
+                    "en": "Can be collected by matching Jewels near it.",
+                    "de": "Kann durch passende Juwelen in der Nähe eingesammelt werden.",
+                    "es": "Se puede recoger emparejando las joyas cercanas.",
+                    "fr": "Peut être collectée en associant les joyaux situés à proximité.",
+                    "it": "Può essere raccolta abbinando i gioielli vicini.",
+                    "br": "Pode ser coletada combinando as joias próximas a ela.",
+                    "ru": "Можно собрать, совместив драгоценности рядом с ним."
+                },
+                {
+                    "id": "Tut3Key",
+                    "en": "Must be removed by matching Jewels above it.",
+                    "de": "Muss entfernt werden, indem die Juwelen über ihm zusammenpassen.",
+                    "es": "Debe eliminarse haciendo coincidir las joyas que hay sobre él.",
+                    "fr": "Doit être retiré en faisant correspondre les joyaux situés au-dessus de lui.",
+                    "it": "Deve essere rimosso abbinando i gioielli sopra di esso.",
+                    "br": "Deve ser removido combinando as joias acima dele.",
+                    "ru": "Должно быть убрано при совмещении драгоценностей над ним."
+                },
+                {
+                    "id": "Tut4Key",
+                    "en": "Can be collected by dropping it through the bottom of the level.",
+                    "de": "Kann eingesammelt werden, indem man sie durch den Boden des Levels fallen lässt.",
+                    "es": "Se puede recoger dejándolo caer por la parte inferior del nivel.",
+                    "fr": "Peut être collectée en la faisant tomber par le bas du niveau.",
+                    "it": "Può essere raccolta facendola cadere attraverso il fondo del livello.",
+                    "br": "Pode ser coletada deixando-a cair na parte inferior do nível.",
+                    "ru": "Можно собрать, опустив его на дно уровня."
+                },
+                {
+                    "id": "Tut5Key",
+                    "en": "Can be endessly collected by matching Jewels near it.",
+                    "de": "Kann endlos gesammelt werden, indem man Juwelen in seiner Nähe findet.",
+                    "es": "Se puede recoger infinitamente emparejando joyas cerca de él.",
+                    "fr": "Peut être collecté à l'infini en associant les joyaux qui se trouvent à proximité.",
+                    "it": "Può essere raccolto in modo infinito abbinando i gioielli vicini.",
+                    "br": "Pode ser coletado infinitamente ao combinar joias próximas a ele.",
+                    "ru": "Можно собирать бесконечно, если подобрать к нему драгоценные камни."
+                },
+                {
+                    "id": "Tut6Key",
+                    "en": "Can be removed by matching Jewels near it.",
+                    "de": "Kann durch passende Juwelen in der Nähe entfernt werden.",
+                    "es": "Puede ser eliminada haciendo coincidir joyas cerca de ella.",
+                    "fr": "Peut être enlevée en associant les pierres précieuses qui se trouvent à proximité.",
+                    "it": "Può essere rimossa facendo combaciare i Gioielli vicino ad essa.",
+                    "br": "Pode ser removida combinando as joias próximas a ela.",
+                    "ru": "Можно удалить, совместив драгоценности рядом с ней."
+                },
+                {
+                    "id": "Tut7Key",
+                    "en": "Can be removed by matching Jewels inside it.",
+                    "de": "Kann durch passende Juwelen im Inneren entfernt werden.",
+                    "es": "Puede ser removida haciendo coincidir Joyas dentro de ella.",
+                    "fr": "Peut être enlevée en faisant correspondre les joyaux à l'intérieur.",
+                    "it": "Può essere rimossa abbinando i gioielli al suo interno.",
+                    "br": "Pode ser removida combinando as joias em seu interior.",
+                    "ru": "Может быть удалена путем совмещения драгоценностей в клетке."
+                },
+                {
+                    "id": "Tut8Key",
+                    "en": "Needs to be spread over free tiles by making matches that include itself.",
+                    "de": "Muss durch Streichhölzer, die sich selbst einschließen, auf freien Feldern ausgebreitet werden.",
+                    "es": "Necesita ser esparcida sobre las baldosas libres haciendo coincidencias que se incluyan a sí misma.",
+                    "fr": "Doit être réparti sur les tuiles libres en faisant des correspondances qui l'incluent.",
+                    "it": "Deve essere distribuito sulle tessere libere creando corrispondenze che includano se stesso.",
+                    "br": "Precisa ser espalhado sobre as peças livres fazendo combinações que incluam ele mesmo.",
+                    "ru": "Необходимо распределить по свободным плиткам, создав соответствия, включающие себя."
+                },
+                {
+                    "id": "Tut9Key",
+                    "en": "Must be removed by matching Jewels near it, while it spreads over a tile each turn when not hit.",
+                    "de": "Muss durch passende Juwelen in der Nähe entfernt werden, während sie sich, wenn sie nicht getroffen wird, jede Runde über eine Kachel ausbreitet.",
+                    "es": "Debe ser eliminado emparejando joyas cerca de él, mientras que se extiende sobre una baldosa cada turno cuando no es golpeado.",
+                    "fr": "Doit être retirée en faisant correspondre les Joyaux près d'elle, tandis qu'elle s'étend sur une tuile à chaque tour lorsqu'elle n'est pas touchée.",
+                    "it": "Deve essere rimossa abbinando i Gioielli vicini, mentre si espande su una tessera ogni turno quando non viene colpita.",
+                    "br": "Deve ser removido ao combinar Joias próximas a ele, enquanto se espalha por um painel a cada turno quando não é atingido.",
+                    "ru": "Должен быть удален путем совмещения драгоценностей рядом с ним, при этом они распространяются на плитку после каждого хода, при отсутствии сопоставления."
+                },
+                {
+                    "id": "Tut10Key",
+                    "en": "Must be removed by exploding Bombs trough it.",
+                    "de": "Muss durch die Explosion von Bomben entfernt werden.",
+                    "es": "Debe eliminarse haciendo explotar bombas a través de ella.",
+                    "fr": "Doit être enlevée en faisant exploser des bombes à travers elle.",
+                    "it": "Deve essere rimossa facendo esplodere le Bombe attraverso di essa.",
+                    "br": "Deve ser removida com a explosão de bombas através dela.",
+                    "ru": "Должен быть удален путем подрыва бомб."
+                },
+				{
+                    "id": "OnBoardingTapToContinueKey",
+                    "en": "Tap to continue!",
+                    "de": "Tippen Sie auf , um fortzufahren!",
+                    "es": "Pulse para continuar",
+                    "fr": "Tapez pour continuer !",
+                    "it": "Toccare per continuare!",
+                    "br": "Toque para continuar!",
+                    "ru": "Нажмите, чтобы продолжить!"
+                },
+				{
+                    "id": "OnBoardingClickToContinueKey",
+                    "en": "Click to continue!",
+                    "de": "Zum Fortfahren anklicken!",
+                    "es": "Haga clic para continuar",
+                    "fr": "Cliquez pour continuer !",
+                    "it": "Clicca per continuare!",
+                    "br": "Clique para continuar!",
+                    "ru": "Нажмите для продолжения!"
+                },
+                {
+                  "id": "StartFullscreenKey",
+                  "en": "Do you want to enable fullscreen mode or continue?",
+                  "de": "Möchten Sie den Vollbildmodus aktivieren oder fortfahren?",
+                  "es": "¿Desea activar el modo de pantalla completa o continuar?",
+                  "fr": "Voulez-vous activer le mode plein écran ou continuer?",
+                  "it": "Volete attivare la modalità a schermo intero o continuare?",
+                  "br": "Você quer ativar o modo tela cheia ou continuar?",
+                  "ru": "Вы хотите включить полноэкранный режим или продолжить?"
+                },
+                {
+                  "id": "FullscreenKey",
+                  "en": "Fullscreen",
+                  "de": "Vollbildschirm",
+                  "es": "Pantalla\ncompleta",
+                  "fr": "Plein\nécran",
+                  "it": "Schermo\nintero",
+                  "br": "Tela\ncompleta",
+                  "ru": "Полноэкранный\nрежим"
+                },
+                {
+                  "id": "ContinueKey",
+                  "en": "Continue",
+                  "de": "Fortfahren",
+                  "es": "Continuar",
+                  "fr": "Continuer",
+                  "it": "Continua",
+                  "br": "Continuar",
+                  "ru": "Продолжить"
+                },
+                {
+                    "id": "LuckyWheelKey",
+                    "en": "Lucky wheel",
+                    "de": "Glücksrad",
+                    "es": "Rueda de la suerte",
+                    "fr": "Roue de la chance",
+                    "it": "Ruota della fortuna",
+                    "br": "Roda da sorte",
+                    "ru": "Счастливое колесо"
+                },
+                {
+                    "id": "LuckyWDescKey",
+                    "en": "Spin the lucky wheel for great rewards!",
+                    "de": "Drehe das Glücksrad für tolle Belohnungen!",
+                    "es": "¡Gira la rueda de la suerte para conseguir grandes recompensas!",
+                    "fr": "Faites tourner la roue de la chance pour obtenir de grandes récompenses !",
+                    "it": "Fai girare la ruota fortunata per ottenere grandi ricompense!",
+                    "br": "Gire a roda da sorte para ganhar grandes recompensas!",
+                    "ru": "Вращайте колесо удачи, чтобы получить отличные награды!"
+                },
+                {
+                    "id": "ShopKey",
+                    "en": "Shop",
+                    "de": "Laden",
+                    "es": "Tienda",
+                    "fr": "Magasin",
+                    "it": "Negozio",
+                    "br": "Loja",
+                    "ru": "Магазин"
+                },
+                {
+                    "id": "ShopDescKey",
+                    "en": "Get yourself a great boost!",
+                    "de": "Verschaffen Sie sich einen großartigen Schub!",
+                    "es": "¡Consigue un gran impulso!",
+                    "fr": "Donnez-vous un bon coup de boost !",
+                    "it": "Regalati una grande spinta!",
+                    "br": "Dê a si mesmo um grande impulso!",
+                    "ru": "Получите отличный заряд энергии!"
+                },
+                {
+                  "id": "NewDealInKey",
+                  "en": "New deal appears in:",
+                  "de": "Neues Angebot erscheint in:",
+                  "es": "Nueva oferta aparece en:",
+                  "fr": "Une nouvelle offre apparaît dans:",
+                  "it": "Nuova offerta in:",
+                  "br": "Nova oferta aparece em:",
+                  "ru": "Новая сделка появится за:"
+                },
+                {
+                    "id": "DailyLoginTitleKey",
+                    "en": "Daily rewards",
+                    "de": "Tägliche Belohnungen",
+                    "es": "Recompensas diarias",
+                    "fr": "Récompenses quotidiennes",
+                    "it": "Ricompense giornaliere",
+                    "br": "Recompensas diárias",
+                    "ru": "Ежедневные награды"
+                },
+                {
+                    "id": "DailyLoginDescKey",
+                    "en": "Visit daily for a gift!",
+                    "de": "Besuche täglich für ein Geschenk!",
+                    "es": "¡Visita diariamente para recibir un regalo!",
+                    "fr": "Visitez quotidiennement pour un cadeau !",
+                    "it": "Visita quotidianamente per un regalo!",
+                    "br": "Visite diariamente para ganhar um presente!",
+                    "ru": "Заходите ежедневно за подарком!"
+                },
+                {
+                  "id": "ReadyKey",
+                  "en": "Ready",
+                  "de": "Bereit",
+                  "es": "Listo",
+                  "fr": "Prêt",
+                  "it": "Pronto",
+                  "br": "Pronto",
+                  "ru": "Готовые"
+                },
+                {
+                  "id": "BombVerticalTitleKey",
+                  "en": "Vertical Rocket",
+                  "de": "Vertikale Rakete",
+                  "es": "Cohete vertical",
+                  "fr": "Fusée verticale",
+                  "it": "Razzo verticale",
+                  "br": "Foguete vertical",
+                  "ru": "Вертикальная ракета"
+                },
+                {
+                  "id": "BombRoundTitleKey",
+                  "en": "Round Bomb",
+                  "de": "Runde Bombe",
+                  "es": "Bomba redonda",
+                  "fr": "Bombe ronde",
+                  "it": "Bomba rotonda",
+                  "br": "Bomba redonda",
+                  "ru": "Круглая бомба"
+                },
+                {
+                  "id": "SpectrumTitleKey",
+                  "en": "Spectrum Bomb",
+                  "de": "Spektralbombe",
+                  "es": "Bomba espectro",
+                  "fr": "Bombe à spectre",
+                  "it": "Bomba a spettro",
+                  "br": "Bomba de espectro",
+                  "ru": "Спектральная бомба"
+                },
+                {
+                  "id": "HardLevelKey",
+                  "en": "Hard level",
+                  "de": "Harte Stufe",
+                  "es": "Nivel difícil",
+                  "fr": "Niveau de difficulté",
+                  "it": "Livello duro",
+                  "br": "Nível difícil",
+                  "ru": "Тяжелый уровень"
+                },
+                {
+                    "id": "ComboKey",
+                    "en": "Combo",
+                    "de": "Kombo",
+                    "es": "Combo",
+                    "fr": "Combo",
+                    "it": "Combo",
+                    "br": "Combo",
+                    "ru": "Комбо"
+                },
+                {
+                    "id": "MinutesShortKey",
+                    "en": "m",
+                    "de": "m",
+                    "es": "m",
+                    "fr": "m",
+                    "it": "m",
+                    "br": "m",
+                    "ru": "м"
+                },
+                {
+                    "id": "SecondsShortKey",
+                    "en": "s",
+                    "de": "s",
+                    "es": "s",
+                    "fr": "s",
+                    "it": "s",
+                    "br": "s",
+                    "ru": "с"
+                }
+            ]
+        }
+    }
+}
